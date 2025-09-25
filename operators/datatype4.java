@@ -37,6 +37,7 @@ double h= datatype4.nextDouble();
 System.out.println(h);
 //size of any  operator
 System.out.println("sizeof double");
+
 System.out.println(Double.SIZE/8);
 System.out.println("size of charactor");
 System.out.println(Character.BYTES);// here charactor  have 2 bytes due to it follows the unicode pattern
