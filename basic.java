@@ -44,5 +44,9 @@ int s=3;
 System.out.println(r&s);
 System.out.println(r|s);
   // x-or it produces output  true when both the input are different (^)
+
+  // ternary operator----
+  int h=9;
+  System.out.println((h%2==0)? "even":"odd");
     }
 }
