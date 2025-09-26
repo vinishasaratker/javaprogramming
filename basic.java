@@ -48,5 +48,27 @@ System.out.println(r|s);
   // ternary operator----
   int num=9;
   System.out.println((num%2==0)? "even":"odd");
-    }
+// else if
+int number=90;
+if(90%2==0){
+  System.out.println("even");
+}    
+else{
+  System.out.println("odd");
+}
+// positive negative or zero
+int m=89;
+if(m>0){
+  System.out.println("positive");
+}
+else if(m<0){
+  System.out.println("negative");
+}
+else{
+  System.out.println("zerooo");
+}
+
+
+
+}
 }
