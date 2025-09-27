@@ -7,6 +7,8 @@ class basic{
     //    relational operator >  <  >=  <=  == !=
     //    logical operator  and && or || not 
     //    bitwise = and or not xor
+
+    // x-or---ya to different value ya to same value nikalna  hota hai
  int a=78;// decleration
  int b=12;//initialization
 // system ek class hai orr only class hi capital ho skta hai  or jo out hai vo object hai println ka 
@@ -67,8 +69,6 @@ else if(m<0){
 else{
   System.out.println("zerooo");
 }
-
-
 
 }
 }
