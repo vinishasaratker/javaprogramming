@@ -105,16 +105,52 @@
 //       System.out.println(p);
 //     }
 // }
-class ifelse{
-  public static void main(String[] args) {
+// class ifelse{
+//   public static void main(String[] args) {
     
-    int s=6;
-    int t=9;
-    s=s+t;
-    t=s-t;
-    s=s-t;
-    System.out.println(s);
-    System.out.println(t);
+//     int s=6;
+//     int t=9;
+//     s=s+t;
+//     t=s-t;
+//     s=s-t;
+//     System.out.println(s);
+//     System.out.println(t);
+
+//   }
+// }
+// import java.util.Scanner;
+//  public class ifelse {
+ 
+//   public static void main(String[] args) {
+//     Scanner obj=new Scanner(System.in);
+//     int num;
+//     System.out.println("enter any number");
+//     num=obj.nextInt();
+//     // programof alwaysprint positive number
+//     if(num<0){
+//       System.out.println(num*(-1));
+//     }
+//     else{
+//       System.out.println(num);
+//     }
+
+
+//   }
+//  }
+import java.util.Scanner;
+public class ifelse {
+
+  public static void main(String[] args) {
+    Scanner obj=new Scanner(System.in);
+    int year;
+    System.out.println("enter any year");
+    year=obj.nextInt();
+    if((year%4==0 && year%400==0)||year%100!=0){
+      System.out.println("leap year");
+    }
+    else{
+      System.out.println("not leap year");
+    }
 
   }
 }
