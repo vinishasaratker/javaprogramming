@@ -93,15 +93,28 @@
 //     }
 // }
 
+// class ifelse{
+//     public static void main(String[] args) {
+//       int z=5;
+//       int p=9;
+//       int temp;
+//       temp=z;
+//       z=p;
+//      p=temp;
+//       System.out.println(z);  
+//       System.out.println(p);
+//     }
+// }
 class ifelse{
-    public static void main(String[] args) {
-      int z=5;
-      int p=9;
-      int temp;
-      temp=z;
-      z=p;
-     p=temp;
-      System.out.println(z);  
-      System.out.println(p);
-    }
+  public static void main(String[] args) {
+    
+    int s=6;
+    int t=9;
+    s=s+t;
+    t=s-t;
+    s=s-t;
+    System.out.println(s);
+    System.out.println(t);
+
+  }
 }
