@@ -105,25 +105,25 @@
 //       System.out.println(p);
 //     }
 // }
-import java.util.Scanner;
- public class ifelse {
+// import java.util.Scanner;
+//  public class ifelse {
  
-  public static void main(String[] args) {
-    Scanner obj=new Scanner(System.in);
-    int num;
-    System.out.println("enter any number");
-    num=obj.nextInt();
-    // programof alwaysprint positive number
-    if(num<0){
-      System.out.println(num*(-1));
-    }
-    else{
-      System.out.println(num);
-    }
+//   public static void main(String[] args) {
+//     Scanner obj=new Scanner(System.in);
+//     int num;
+//     System.out.println("enter any number");
+//     num=obj.nextInt();
+//     // programof alwaysprint positive number
+//     if(num<0){
+//       System.out.println(num*(-1));
+//     }
+//     else{
+//       System.out.println(num);
+//     }
 
 
-  }
- }
+//   }
+//  }
 // class ifelse{
 //   public static void main(String[] args) {
     
@@ -156,3 +156,84 @@ import java.util.Scanner;
 
 //   }
 // }
+// import java.util.Scanner;
+// public class ifelse {
+
+//   public static void main(String[] args) {
+    
+// Scanner obj=new Scanner(System.in);
+// int cp;
+// int sp;
+// System.out.println("enterr cost price & sellin price");
+// cp=obj.nextInt();
+// sp=obj.nextInt();
+// if(cp<sp){
+//   String option;
+//   System.out.println("enter option yes or no");
+//   option=obj.next();
+//   if(option.equals("yes"));{
+//     System.out.println("your profit is "+" "+(sp-cp));
+//   }
+//   else {
+//     System.out.println("your profit is"+" "+(sp-cp));
+//   }
+
+
+// }
+// else if(cp>sp){
+//    String option;
+//   System.out.println("enter option yes or no");
+//   option=obj.next();
+  
+//   if(option.equals("yes")){
+// System.out.println("your loss is"+" "+(cp-sp));
+//   }
+// else{
+//   System.out.println("your loss is"+" "+(cp-sp));
+// }
+// }
+// else{
+//   System.out.println("noprofit no loss");
+
+// }
+
+//   }
+// }
+import java.util.Scanner;
+
+public class ifelse {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int cp;
+        int sp;
+
+        System.out.println("Enter cost price & selling price:");
+        cp = obj.nextInt();
+        sp = obj.nextInt();
+
+        if (cp < sp) {  // Profit case
+            String option;
+            System.out.println("Enter option yes or no:");
+            option = obj.next();
+
+            if (option.equals("yes")) {
+                System.out.println("Your profit is " + (sp - cp));
+            } else {
+                System.out.println("Your profit is " + (sp - cp));
+            }
+
+        } else if (cp > sp) {  // Loss case
+            String option;
+            System.out.println("Enter option yes or no:");
+            option = obj.next();
+
+            if (option.equals("yes")) {
+                System.out.println("Your loss is " + (cp - sp));
+            } else {
+                System.out.println("Your loss is " + (cp - sp));
+            }
+        } else {  // No profit, no loss
+            System.out.println("No profit, no loss.");
+        }
+    }
+}
