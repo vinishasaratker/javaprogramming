@@ -61,25 +61,48 @@
 
 
 // }
+// import java.util.Scanner;
+// public class elseif{
+//     public static void main(String[] args) {
+        
+// char ch;
+//  Scanner obj=new Scanner(System.in);
+// System.out.println("enter any charactor value");
+// ch= obj.next().charAt(0);
+// if(ch>='a' && ch<='z')
+// {
+//     System.out.println("lowercase");
+// }
+
+
+// else if(ch>='A' && ch<='Z'){
+//     System.out.println("uppercase");
+// }
+// else{
+//     System.out.println("special symbol");
+// }
+//     }
+// }
+
 import java.util.Scanner;
 public class elseif{
     public static void main(String[] args) {
         
-char ch;
- Scanner obj=new Scanner(System.in);
-System.out.println("enter any charactor value");
-ch= obj.next().charAt(0);
-if(ch>='a' && ch<='z')
-{
-    System.out.println("lowercase");
-}
+        char ch;
+        Scanner obj=new Scanner(System.in);
+        System.out.println("enter any charactor");
+        ch=obj.next().charAt(0);
+        if(ch>='a'&& ch<='z'){
+            ch=(char)(ch-32);
+System.out.println(ch);
+        }
+        else if(ch>='A'&& ch<='Z'){
+               ch=(char)(ch+32);
+System.out.println(ch);
+        }
 
-
-else if(ch>='A' && ch<='Z'){
-    System.out.println("uppercase");
-}
-else{
-    System.out.println("special symbol");
-}
+        else{
+            System.out.println("special symbol");
+        }
     }
 }
