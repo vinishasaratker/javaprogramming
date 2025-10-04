@@ -26,38 +26,60 @@
 // }
 
 
+// import java.util.Scanner;
+//  public  class elseif{
+//     public static void main(String[] args) {
+        
+//     Scanner obj=new Scanner(System.in);
+//     int option;
+//     System.out.println("enter option 1. for f-c & 2. for c-f");
+//     option= obj .nextInt();
+
+//     if(option==1){
+//         int temp;
+//         System.out.println("enter tempreture in  fehrenite");
+//         temp=obj.nextInt();
+//         int ans;
+//         ans=(temp-32)*5/9;
+//         System.out.println(ans+" "+"tempreture in celsius");
+
+
+//     }
+//     else if(option==2){
+//          int temp;
+//         System.out.println("enter tempreture in  celsius");
+//         temp=obj.nextInt();
+//         int ans;
+//         ans=((temp*5)/9)+32;
+//         System.out.println(ans+" "+"tempreture in fahrenite");
+
+//     }
+//     else{
+//         System.out.println("invalid");
+//     }
+//     }
+
+
+// }
 import java.util.Scanner;
- public  class elseif{
+public class elseif{
     public static void main(String[] args) {
         
-    Scanner obj=new Scanner(System.in);
-    int option;
-    System.out.println("enter option 1. for f-c & 2. for c-f");
-    option= obj .nextInt();
-
-    if(option==1){
-        int temp;
-        System.out.println("enter tempreture in  fehrenite");
-        temp=obj.nextInt();
-        int ans;
-        ans=(temp-32)*5/9;
-        System.out.println(ans+" "+"tempreture in celsius");
+char ch;
+ Scanner obj=new Scanner(System.in);
+System.out.println("enter any charactor value");
+ch= obj.next().charAt(0);
+if(ch>='a' && ch<='z')
+{
+    System.out.println("lowercase");
+}
 
 
+else if(ch>='A' && ch<='Z'){
+    System.out.println("uppercase");
+}
+else{
+    System.out.println("special symbol");
+}
     }
-    else if(option==2){
-         int temp;
-        System.out.println("enter tempreture in  celsius");
-        temp=obj.nextInt();
-        int ans;
-        ans=((temp*5)/9)+32;
-        System.out.println(ans+" "+"tempreture in fahrenite");
-
-    }
-    else{
-        System.out.println("invalid");
-    }
-    }
-
-
 }
