@@ -84,25 +84,54 @@
 //     }
 // }
 
+// import java.util.Scanner;
+// public class elseif{
+//     public static void main(String[] args) {
+        
+//         char ch;
+//         Scanner obj=new Scanner(System.in);
+//         System.out.println("enter any charactor");
+//         ch=obj.next().charAt(0);
+//         if(ch>='a'&& ch<='z'){
+//             ch=(char)(ch-32);
+// System.out.println(ch);
+//         }
+//         else if(ch>='A'&& ch<='Z'){
+//                ch=(char)(ch+32);
+// System.out.println(ch);
+//         }
+
+//         else{
+//             System.out.println("special symbol");
+//         }
+//     }
+// }
+
 import java.util.Scanner;
 public class elseif{
     public static void main(String[] args) {
         
-        char ch;
         Scanner obj=new Scanner(System.in);
-        System.out.println("enter any charactor");
-        ch=obj.next().charAt(0);
-        if(ch>='a'&& ch<='z'){
-            ch=(char)(ch-32);
-System.out.println(ch);
+        int unit;
+        System.out.println(" enter units ");
+        unit=obj.nextInt();
+        if(unit<=100){
+            int bill;
+            bill=unit*5;
+            System.out.println("your bill is +"+bill);
         }
-        else if(ch>='A'&& ch<='Z'){
-               ch=(char)(ch+32);
-System.out.println(ch);
+        else if(unit>100 && unit<=200){
+            int bill;
+            bill=unit*7;
+            System.out.println("your bill is +"+bill);
+        }
+         else{
+            int bill;
+            bill=unit*10;
+            System.out.println("your bill is +"+bill);
         }
 
-        else{
-            System.out.println("special symbol");
-        }
     }
+    
+
 }
