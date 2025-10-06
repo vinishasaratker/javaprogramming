@@ -9,19 +9,32 @@ public class hospitalque {
 
      //********** */
 
-     
+
      if(patient.equals("CVR")){
        System.out.println("your patient is serious");
        String ward;
      System.out.println("enter ward number according to patient condition");
      ward=obj.next();
-      if(ward.equals("emergency")){
+     int option;
+     System.out.println("enter 1 for billing and 2for shifting in normal ward");
+     option=obj.nextInt();
+
+if(option==1){
+  if(ward.equals("emergency")){
    int days;
         System.out.println("enter days in hospital");
      days=obj.nextInt();
         bil=days*3000;
         System.out.println(" your bill is +"+" "+bil);
-        } }
+        } 
+}
+
+     else if(option==2){
+      System.out.println("shifting in another ward according to doctor ");
+
+     }
+      
+      }
 
         //******************* */
 
@@ -32,11 +45,18 @@ String ward;
      System.out.println("enter ward number according to patient condition");
      ward=obj.next();
 if(ward.equals("private")){
+ int option;
+     System.out.println("enter 1 for billing and 2for shifting in normal ward");
+     option=obj.nextInt();
+if(option==1){  
   int days;
    System.out.println("enter days in hospital");
      days=obj.nextInt();
      bil=days*2000;
-     System.err.println(" your bill is +"+""+bil );
+     System.err.println(" your bill is +"+""+bil );}
+     else if(option==2){
+      System.out.println("shift in another ward");
+     }
 
 } }
 ///******************************** */
@@ -50,11 +70,16 @@ if(ward.equals("private")){
      ward=obj.next();
 
       if(ward.equals("general")){
+
+        int option;
+     System.out.println("enter 1 for billing and 2for shifting in normal ward");
+     option=obj.nextInt();
+if(option==1){
         int days;
         System.out.println("enter days in hospital");
         days=obj.nextInt();
         bil=days*1000;
-        System.out.println(" your bill is +"+" "+bil);
+        System.out.println(" your bill is +"+" "+bil);}
       }  }
 
 
