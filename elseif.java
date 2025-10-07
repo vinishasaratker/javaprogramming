@@ -220,15 +220,15 @@
 //      }
     
 //     }
-//       import java.util.Scanner;
-// public class elseif{
-//      public static void main(String[] args)
-//      { int by;
-//         System.out.println("enter lenghtt");
-//         Scanner obj=new Scanner(System.in);
-//         by=obj .nextInt();
-//         float kb;
-// kb=by/1024;
-// System.out.println(kb);
-// }
-// }
+      import java.util.Scanner;
+public class elseif{
+     public static void main(String[] args)
+     { int by;
+        System.out.println("enter lenghtt");
+        Scanner obj=new Scanner(System.in);
+        by=obj .nextInt();
+        float kb;
+kb=by/1024;
+System.out.println( " "+kb);
+}
+}
