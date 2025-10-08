@@ -11,12 +11,12 @@ public class hospitalque {
 
 
      if(patient.equals("CVR")){
-       System.out.println("your patient is serious");
+       System.out.println("your patient is serious :");
        String ward;
-     System.out.println("enter ward number according to patient condition");
+     System.out.println("enter ward number according to patient condition :");
      ward=obj.next();
      int option;
-     System.out.println("enter 1 for billing and 2for shifting in normal ward");
+     System.out.println("enter 1 for billing and 2for shifting in normal ward :");
      option=obj.nextInt();
 
 if(option==1){

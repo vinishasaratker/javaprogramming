@@ -229,6 +229,7 @@ public class elseif{
         by=obj .nextInt();
         float kb;
 kb=by/1024;
+
 System.out.println( " "+kb);
 }
 }
