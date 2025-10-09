@@ -101,26 +101,70 @@
 //         }
 //     }
 //  }
-import java.util.Scanner;
+// import java.util.Scanner;
+// class testque{
+//     public static void main(String[] args) {
+//         int d;
+//         int x;
+//         Scanner obj=new Scanner(System.in);
+//         System.out.println(" enter any value for x");
+//         x=obj.nextInt();
+//         d=3*x^2-4*x+1;
+//         if(d>0){
+//             System.out.println("real or distrint root");
+//         }
+//         else if(d<0){
+//             System.out.println("imaginary roots");
+//         }
+//         else if(d==0){
+//             System.out.println("real or equal roots");
+//         }
+//         else{
+//             System.out.println("invalid  roots");
+//         }
+//     }
+// }
+// import java .util.Scanner;
+// class testque{
+//     public static void main(String[] args) {
+        
+//        // Voting Eligibility with Citizenship
+//         //Ask age and nationality from user.If age ≥ 18 and nationality is “Indian” → 
+//        // Eligible to vote, else not eligible.
+//        Scanner obj=new Scanner(System.in);
+
+//        int age;
+//        System.out.println(" enter age of voter");
+//        age= obj.nextInt();
+//        String nationalitiy;
+// System.out.println(" enter nationality");
+// nationalitiy=obj.next();
+// if(age>=18 && nationalitiy.equals("indian")){
+//     System.out.println("eligible for vote");
+// }
+// else {
+//     System.out.println(" not eligible");
+// }
+
+//     }
+// }
+import java.util. Scanner;
 class testque{
-    public static void main(String[] args) {
-        int d;
-        int x;
-        Scanner obj=new Scanner(System.in);
-        System.out.println(" enter any value for x");
-        x=obj.nextInt();
-        d=3*x^2-4*x+1;
-        if(d>0){
-            System.out.println("real or distrint root");
-        }
-        else if(d<0){
-            System.out.println("imaginary roots");
-        }
-        else if(d==0){
-            System.out.println("real or equal roots");
-        }
-        else{
-            System.out.println("invalid  roots");
-        }
-    }
+ public static void main(String[] args){
+Scanner my=new Scanner(System.in);
+int price=200;
+String customer;
+System.out.println(" enter customer  id student or aged");
+customer= my.next();
+if(customer.equals("student")){
+    System.out.println(" you got  50 % discount+"+price*50/100);
+}
+else if(customer.equals("seniorcitizen")){
+    System.out.println(" you got 30 % discount +"+" "+ price*30/100);
+}
+else{
+    System.out.println(" full price "+ " "+ price);
+}
+
+ }
 }
