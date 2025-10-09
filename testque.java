@@ -168,19 +168,36 @@
 
 //  }
 // }
+// import java.util.Scanner;
+// class testque{
+//     public static void main(String[]args){
+//         Scanner water=new Scanner(System.in);
+//         int hour;
+//         System.out.println(" enter hour of parking your vehicals");
+//         hour= water.nextInt();
+// int price=20;
+//         if(hour==2){
+//             System.out.println(" there is  20 rupees of charge +" +" "+ price);
+//         }
+//         else if(hour>2){
+//             System.out.println(" extra charges +"+" "+ (hour-2)*10);
+//         }
+//     }
+// }
 import java.util.Scanner;
 class testque{
     public static void main(String[]args){
-        Scanner water=new Scanner(System.in);
-        int hour;
-        System.out.println(" enter hour of parking your vehicals");
-        hour= water.nextInt();
-int price=20;
-        if(hour==2){
-            System.out.println(" there is  20 rupees of charge +" +" "+ price);
-        }
-        else if(hour>2){
-            System.out.println(" extra charges +"+" "+ (hour-2)*10);
-        }
+        Scanner sec=new Scanner(System.in);
+        int seconds;
+        System.out.println(" enter number of seconds");
+        seconds=sec.nextInt();
+        int hours;
+        hours=seconds/3600;
+        int remainingsecond=seconds%3600;
+        int minute;
+        minute=remainingsecond/60;
+        int seco;
+        seco=remainingsecond%60;
+        System.out.println(" total time is +" +" "+ hours  + " "+ minute+" "+ seco);
     }
 }
