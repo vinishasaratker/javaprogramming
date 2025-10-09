@@ -146,25 +146,41 @@
 //     System.out.println(" not eligible");
 // }
 
-//     }
+// //     }
+// // }
+// import java.util. Scanner;
+// class testque{
+//  public static void main(String[] args){
+// Scanner my=new Scanner(System.in);
+// int price=200;
+// String customer;
+// System.out.println(" enter customer  id student or aged");
+// customer= my.next();
+// if(customer.equals("student")){
+//     System.out.println(" you got  50 % discount+"+price*50/100);
 // }
-import java.util. Scanner;
-class testque{
- public static void main(String[] args){
-Scanner my=new Scanner(System.in);
-int price=200;
-String customer;
-System.out.println(" enter customer  id student or aged");
-customer= my.next();
-if(customer.equals("student")){
-    System.out.println(" you got  50 % discount+"+price*50/100);
-}
-else if(customer.equals("seniorcitizen")){
-    System.out.println(" you got 30 % discount +"+" "+ price*30/100);
-}
-else{
-    System.out.println(" full price "+ " "+ price);
-}
+// else if(customer.equals("seniorcitizen")){
+//     System.out.println(" you got 30 % discount +"+" "+ price*30/100);
+// }
+// else{
+//     System.out.println(" full price "+ " "+ price);
+// }
 
- }
+//  }
+// }
+import java.util.Scanner;
+class testque{
+    public static void main(String[]args){
+        Scanner water=new Scanner(System.in);
+        int hour;
+        System.out.println(" enter hour of parking your vehicals");
+        hour= water.nextInt();
+int price=20;
+        if(hour==2){
+            System.out.println(" there is  20 rupees of charge +" +" "+ price);
+        }
+        else if(hour>2){
+            System.out.println(" extra charges +"+" "+ (hour-2)*10);
+        }
+    }
 }
