@@ -69,35 +69,58 @@
 
 //     }
 // }
+// import java.util.Scanner;
+//  class testque{
+//     public static void main(String[] args) {
+//         Scanner obj=new Scanner(System.in);
+//         // write a program to create a triangle checker
+//         int side1;
+//         System.out.println("enter  first side of triangle ");
+//         side1= obj.nextInt();
+//         int side2;
+//         System.out.println(" enter second side of a triangle ");
+//         side2=obj.nextInt();
+//         int side3;
+//         System.out.println(" enter third side of a triangle");
+//         side3=obj.nextInt();
+//         if(side1==0 && side2==0 && side3==0){
+//             System.out.println(" invalid triangle");
+//         }
+//         else if(((side1+side2)>side3) || ((side2+side3)>side1) || ((side3+side2)>side1)){
+//             if( side1==side2 && side2==side3){
+//                 System.out.println("equilateral triangle");}
+//                 else if(side1==side2 && side2!=side3){
+//                     System.out.println("isosceles triangle");
+//                 }
+//                 else if(side1!=side2 && side2!=side3 && side3!=side1){
+//                     System.out.println("scalene triangle");
+//                 }
+//         }
+//         else{
+//             System.out.println(" invalid");
+//         }
+//     }
+//  }
 import java.util.Scanner;
- class testque{
+class testque{
     public static void main(String[] args) {
+        int d;
+        int x;
         Scanner obj=new Scanner(System.in);
-        // write a program to create a triangle checker
-        int side1;
-        System.out.println("enter  first side of triangle ");
-        side1= obj.nextInt();
-        int side2;
-        System.out.println(" enter second side of a triangle ");
-        side2=obj.nextInt();
-        int side3;
-        System.out.println(" enter third side of a triangle");
-        side3=obj.nextInt();
-        if(side1==0 && side2==0 && side3==0){
-            System.out.println(" invalid triangle");
+        System.out.println(" enter any value for x");
+        x=obj.nextInt();
+        d=3*x^2-4*x+1;
+        if(d>0){
+            System.out.println("real or distrint root");
         }
-        else if(((side1+side2)>side3) || ((side2+side3)>side1) || ((side3+side2)>side1)){
-            if( side1==side2 && side2==side3){
-                System.out.println("equilateral triangle");}
-                else if(side1==side2 && side2!=side3){
-                    System.out.println("isosceles triangle");
-                }
-                else if(side1!=side2 && side2!=side3 && side3!=side1){
-                    System.out.println("scalene triangle");
-                }
+        else if(d<0){
+            System.out.println("imaginary roots");
+        }
+        else if(d==0){
+            System.out.println("real or equal roots");
         }
         else{
-            System.out.println(" invalid");
+            System.out.println("invalid  roots");
         }
     }
- }
+}
