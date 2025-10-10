@@ -95,23 +95,71 @@
 //     obj.even(number);
 // }
 // }
-import java .util.Scanner;
-public class function2{
-      int ans=1;
-    int fact(int num){
-        for(int i=1;i<=num;i++){
-          ans=ans*i; }
-        return ans;
+// import java .util.Scanner;
+// public class function2{
+//       int ans=1;
+//     int fact(int num){
+//         for(int i=1;i<=num;i++){
+//           ans=ans*i; }
+//         return ans;}
+//     public static void main(String[] args) {
+//         Scanner  sc=new Scanner(System.in);
+//         int number;
+//         System.out.println(" enter number");
+//         number=  sc.nextInt();
+//         function2 obj=new function2();
+//          int anss=obj.fact(number);
+//          System.out.println(anss);}
+// }
+// import java.util.Scanner;
+// class function2{
+//     int prime(int num){
+//         int count=0;
+//         for(int i=1;i<=num;i++){
+//             if(num%i==0){
+// count++; }}
+//          if(count>2){
+//                 System.out.println(" not prime");}
+//             else{
+//                 System.out.println(" prime");}   
+//                 return 0;
+//     }
+//     public static void main(String[]args){
+//         Scanner sc=new Scanner(System.in);
+//         int number;
+//         System.out.println(" enter any number");
+//         number=sc.nextInt();
+//         function2 obj=new function2();
+//         obj.prime(number);
+//     }
+// }
+import java.util.Scanner;
+class function2{
+int largest(int num1,int num2,int num3){
+    if(num1>num2 && num1>num3){
+        System.out.println(" num1 is greater +"+" "+num1);
     }
+    else if(num2>num3 && num2>num1){
+        System.out.println(" num 2 is greater +"+" "+num2);
+    }
+    else{
+        System.out.println(" num3 is greater +"+" "+num3);
+    }
+    return 0;
+}
     public static void main(String[] args) {
-        Scanner  sc=new Scanner(System.in);
-        int number;
-        System.out.println(" enter number");
-        number=  sc.nextInt();
-        function2 obj=new function2();
-         int anss=obj.fact(number);
-         System.out.println(anss);
-     
+        Scanner sc=new Scanner(System.in);
+        int a;
+        System.out.println(" enter first number");
+        a=sc.nextInt();
+        int b;
+         System.out.println(" enter second number");
+        b=sc.nextInt();
+        int c;
+         System.out.println(" enter third number");
+        c=sc.nextInt();
+function2 obj=new function2();
+obj.largest(a,b,c);
 
     }
 }
