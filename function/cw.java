@@ -36,19 +36,30 @@
 //         cw obj=new cw();
 //         System.out.println(obj.names());
 //         }
+//     
+// import java.util.Scanner;
+// public class cw {  
+//     static char names(char ch) {
+//         return ch;  }
+//     public static void main(String[] args) {
+//     System.out.println(names('a'));   
 //     }
-import java.util.Scanner;
-public class cw {  
-    char names(char ch) {
-        return ch;  }
-    public static void main(String[] args) {
-        cw obj = new cw();
-        char ch;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter any character:");
-        ch = sc.next().charAt(0);
-System.out.println("Result: " + obj.names(ch));
-    }
-}
+// }
+// return type --byte short long boolean  int  double char float  string
+// non return-- void
 
     
+import java.util.Scanner;
+class cw{
+    static void sub(){
+        System.out.println(9-7);
+    }
+    static int add(){
+        System.out.println(4+9);
+        return 0;
+    }
+    public static void main(String[] args) {
+       sub();
+       System.out.println(add());
+    }
+}
