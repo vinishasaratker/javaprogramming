@@ -58,8 +58,25 @@ class cw{
         System.out.println(4+9);
         return 0;
     }
+    static String nam(){
+        System.out.println("i am vinisha");// agr hame returnke sath value print krana hai to sout ke sath b function ko call krna pdenga 
+        return" vini";
+    }
+    static char print(){
+        System.out.println('g');
+        return 0;
+    }
+    static boolean booll(){
+        System.out.println("true");
+        return false;
+    }
     public static void main(String[] args) {
        sub();
-       System.out.println(add());
+      add();
+     System.out.println(nam());
+      print();
+      booll();
+      nam();
+
     }
 }
