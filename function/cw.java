@@ -1,50 +1,4 @@
-// import java.util.Scanner;
-// public class cw {
-//     int value(int a){
-//         return a;
-//     }
-// public static void main(String[] args) {
-//     Scanner sc=new Scanner(System.in);
-//     int number;
-//     System.out.println(" enterv value");
-//     number=sc.nextInt();
-//     cw obj=new cw();
-//      int ans=obj.value(number);
-//      System.out.println(ans);}
-//     }
 
-
-// import java.util.Scanner;
-// public class cw{
-//     void print(int number){
-
-//     }
-//     public static void main(String[] args) {
-//         int number;
-//         Scanner sc=new Scanner(System.in);
-//      System.out.println(" enter value");
-//    number=sc.nextInt();
-//     cw obj=new cw();
-//    obj.print(number);
-//     }
-// }
-// import java.util.Scanner;
-// public class cw{  
-//     String names(){
-//         return " welcome to this code";
-//  } public static void main(String[] args) {
-//         cw obj=new cw();
-//         System.out.println(obj.names());
-//         }
-//     
-// import java.util.Scanner;
-// public class cw {  
-//     static char names(char ch) {
-//         return ch;  }
-//     public static void main(String[] args) {
-//     System.out.println(names('a'));   
-//     }
-// }
 // return type --byte short long boolean  int  double char float  string
 // non return-- void
 
@@ -81,16 +35,20 @@
 //     }
 // }
 
-// function with parameters
-// import java.util.Scanner;
-// class cw{
-//    static int division(int a,int b){
-//         System.out.println("division is+"  "+  (a/b) );
-//         return 0;}
-//     public static void main(String[] args) {
-//     system.out.println(division(10,5));
-//      }
-// }
+//function with parameters-- mtlb function  ke andr data types ko de do
+import java.util.Scanner;
+class cw{
+  static int division(int a,int b){
+    System.out.println(a/b);
+    return 0;
+  }
+  public static void main(String[] args) {
+    System.out.println( division(50,10));
+    
+  }
+}
+
+
 // function overloading   jab ek hi function ko ek hi file me multiple times call krte haito usko function overloading bolte hai
 //1. on the basis of parameter
 // 2. on the basis or overlapping
@@ -104,17 +62,29 @@
 //        System.out.println(my(2,7));  
        
 //     }
-// }
-// recursion functionkhud ko call krta h datatype only returntype hota hai non return nhi hotahai
-// or yeh ek loop ki trh kaam krta hai 
-// fir loop ko rokne ke liye ek condition use krte hai
-import java.util.Scanner;
-class cw{
-  static int summ(int n){
-if(n==0) return 0;
-    return summ(n-1)+n;
-  }
-  public static void main(String[] args) {
+// // }
+// // recursion functionkhud ko call krta h datatype only returntype hota hai non return nhi hotahai
+// // or yeh ek loop ki trh kaam krta hai 
+// // fir loop ko rokne ke liye ek condition use krte hai
+// import java.util.Scanner;
+// class cw{
+//   static int summ(int n){
+// if(n==0) {return 0;}
+//     return summ(n-1)+n;
+//   }
+//   public static void main(String[] args) {
    
-       System.out.println(summ(10));    }
-}
+//        System.out.println(summ(10));    }
+// }
+// // 10+summ(9)
+// //      9+sum(8)    
+//                 //8+ summ(7) 
+//                         // 7+ summ(6)
+//                                  // 6+summ(5)
+//                                        //5+ summ(4) 
+
+//                      // 4+ summ(3)
+//                                  // 3+summ(2)
+//                                          //2+ summ(1) 
+//                                                // 1+ summ(0)
+            
