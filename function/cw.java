@@ -36,17 +36,17 @@
 // }
 
 //function with parameters-- mtlb function  ke andr data types ko de do
-import java.util.Scanner;
-class cw{
-  static int division(int a,int b){
-    System.out.println(a/b);
-    return 0;
-  }
-  public static void main(String[] args) {
-    System.out.println( division(50,10));
+// import java.util.Scanner;
+// class cw{
+//   static int division(int a,int b){
+//     System.out.println(a/b);
+//     return 0;
+//   }
+//   public static void main(String[] args) {
+//     System.out.println( division(50,10));
     
-  }
-}
+//   }
+// }
 
 
 // function overloading   jab ek hi function ko ek hi file me multiple times call krte haito usko function overloading bolte hai
@@ -63,7 +63,7 @@ class cw{
        
 //     }
 // // }
-// // recursion functionkhud ko call krta h datatype only returntype hota hai non return nhi hotahai
+// // recursion  jab function khud ko call krta h datatype only return type hota hai non return nhi hota hai
 // // or yeh ek loop ki trh kaam krta hai 
 // // fir loop ko rokne ke liye ek condition use krte hai
 // import java.util.Scanner;
@@ -87,4 +87,13 @@ class cw{
 //                                  // 3+summ(2)
 //                                          //2+ summ(1) 
 //                                                // 1+ summ(0)
-            
+import java.util.Scanner;
+class cw{
+  static int summ(int n){
+if(n==0) {return 1;}
+    return summ(n-1)*n;
+  }
+  public static void main(String[] args) {
+   
+       System.out.println(summ(10));    }
+  }
