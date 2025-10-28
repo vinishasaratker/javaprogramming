@@ -10,9 +10,7 @@
   // why we make three loop--- readability  ko shi krne ke liye mtlb kon se question me kon sa suitable honga
   // do whilw loop ek bar to chalta hi chalta hai 
   // while--- exit control loop bhi khte hai 
-  import java.util.Scanner;
-  class loop1{
-    public static void main(String[] args) {
+
     //     int i=9;
     //     do{
     //         System.out.println(i++);}
@@ -54,14 +52,13 @@
     // for(int i=1;i<=10;i++){
     //     System.out.println(n6*i);
     // }
-
+  import java.util.Scanner;
+  class loop1{
+    public static void main(String[] args) {
     int m=5;
     int fact=1;
     for(int i=1;i<=5;i++){
-         fact=fact*i;
-         
-      
-    }
+         fact=fact*i;}
     System.out.println(fact);
     }
   }
