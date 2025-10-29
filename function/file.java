@@ -76,16 +76,3 @@
 //             }
         
 //     }}
-import java.util.Scanner;
-class file{
-    public static void main(String[] args) {
-        int n;
-        System.out.println(" enter any number");
-        Scanner obj=new Scanner(System.in);
-        n= obj.nextInt();
-        while(n>0){
-            
-        }
-    
-    }
-}
