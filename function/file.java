@@ -49,30 +49,4 @@
 
 //     }
 // }
-// import java.util.Scanner;
-// class file{
-//     public static void main(String[] args) {
-//         int n;
-//         System.out.println(" enter any number");
-//         Scanner obj=new Scanner(System.in);
-//         n= obj.nextInt();
-//         if(n>99 && n<1000){
-            
-//                 int lastdigit=n%10;
-//                 n=n/10;
-//                 int lastdigit2=n%10;
-//                 n=n/10;
-//                 int last3=n%10;
-//                 n=n/10;
-//                 if(lastdigit>lastdigit2 && lastdigit>last3){
-//                     System.out.println(lastdigit);
-//                 }
-//                else if(lastdigit2>lastdigit && lastdigit2>last3){
-//                     System.out.println(lastdigit2);
-//                 }
-//                 else if(last3>lastdigit2 && last3>lastdigit){
-//                     System.out.println(last3);
-//                 }
-//             }
-        
-//     }}
+
