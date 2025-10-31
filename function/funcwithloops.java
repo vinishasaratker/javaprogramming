@@ -122,6 +122,16 @@ if(reverse==t){
  else{
     System.out.println(" not a palindrom");
  }            }
+ static void evendigitofno(int n){
+    int lastt;
+    for(int i=1;1<=n;i++){
+        lastt=n%10;
+        if(lastt%2==0){
+System.out.println(lastt);
+        }
+        n=n/10;
+    }
+ }
              public static void main(String[] args) {
         powerr(2,5);
         fact(5);
@@ -133,6 +143,6 @@ perfect(12);
 armstrong(153);
 febonacchi(7);
 palindrom(171);
-
+evendigitofno(4567);
 }
 }
