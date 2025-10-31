@@ -132,7 +132,34 @@ System.out.println(lastt);
         n=n/10;
     }
  }
-             public static void main(String[] args) {
+ static void reverse(int n){
+    int lastdigit;
+    for(int i=1;i<=n;i++){
+        lastdigit=n%10;
+        System.out.print(lastdigit);
+        n=n/10;
+    }
+ }
+ static void sumofdigitofnumber(int n4){
+    int sum=0;
+    while(n4!=0){
+        int last=n4%10;
+sum=sum+last;
+n4=n4/10;
+    }
+    System.out.println( " sum is "+sum);
+ }
+ static void countdigit(int l){
+    int count=0;
+    while(l!=0){
+        int km=l%10;
+        count++;
+      l=l/10;
+
+    }
+    System.out.println(" number of digits is "+ count);
+ }
+              public static void main(String[] args) {
         powerr(2,5);
         fact(5);
         isprime(7); 
@@ -144,5 +171,8 @@ armstrong(153);
 febonacchi(7);
 palindrom(171);
 evendigitofno(4567);
+reverse(987650);
+sumofdigitofnumber(1234);
+countdigit(1235);
 }
 }
