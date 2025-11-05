@@ -9,7 +9,7 @@ static void pp( int n){
         
         else{
             System.out.print(" ");
-        }
+        
     }
     System.out.println();}
     }
