@@ -36,11 +36,7 @@ smax=mmax[i];
 
 System.out.println(" second maximum valu is "+smax);
 }
-static void reverse(int rev[]){
-    for(int i=(rev.length-1);i<rev.length;i--){
-        System.out.println( " reverse elements are"+rev[i]);
-    }    
-}
+
 static void even(int arr5[]){
     int n=arr5.length;
     for(int i=0;i<n;i++){
@@ -52,6 +48,7 @@ static void even(int arr5[]){
         }
     }
 }
+
 public static void main(String[] args) {
         int max[]={34,87,65,66,54};
         maximumm(max);
@@ -59,9 +56,10 @@ public static void main(String[] args) {
         minimumm(minn);
         int mmax[]={54,67,89,23,76};
         secondmax(mmax);
-int rev[]={94,88,20,16,20,24};
-reverse(rev);
+
 int arr5[]={4,8,9,98,54};
 even(arr5);
+
+
     }
 }
