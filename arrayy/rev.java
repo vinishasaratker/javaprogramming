@@ -1,4 +1,15 @@
 public class rev {
+static void remove(int acc[]){
+    int temp=acc[0];
+    for(int i=0;i<acc.length;i++){
+        
+    }
+
+}
+
+
+
+
     static void reverse(int arr4[]){
         int n=arr4.length;
         int start=0;
@@ -43,5 +54,7 @@ for(int i=0;i<n;i+=2){
         swapalternate(arrayy);
      int unique[]={3,3,99,6,7,7,3,99};
 uniqueelement(unique);
+int acc[]={1,1,2,2,3,3,4};
+remove(acc);
     }
 }

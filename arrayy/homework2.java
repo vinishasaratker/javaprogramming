@@ -1,7 +1,7 @@
 public class homework2 {
     static void duplicate(int arr4[]){
         int ans=0;
-        // aGR EK HIDUPLICATE TERM PRESENT HO ARRAY ME TAB HI YEH LOGIC KAAM KRENGA OTHERWISE IT WILL PROVIDES WRONG ANSWER
+        // aGR EK HI DUPLICATE TERM PRESENT HO ARRAY ME TAB HI YEH LOGIC KAAM KRENGA OTHERWISE IT WILL PROVIDES WRONG ANSWER
         for(int i=0;i<arr4.length;i++ ){
              ans=ans^arr4[i];
         }
