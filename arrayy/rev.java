@@ -29,10 +29,19 @@ for(int i=0;i<n;i+=2){
     }
 
     }
+    static void uniqueelement(int unique[]){
+        int ans = 0;
+        for(int i = 0; i < unique.length; i++){
+            ans = ans ^ unique[i];
+        }
+        System.out.println(" unique element is "+ans);
+    }
     public static void main(String[] args) {
         int arr4[]={1,2,3,4,5};
         reverse(arr4);
         int arrayy[]={  5,82,44,56,6,7};
         swapalternate(arrayy);
+     int unique[]={3,3,99,6,7,7,3,99};
+uniqueelement(unique);
     }
 }
