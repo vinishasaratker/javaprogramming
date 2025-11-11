@@ -2,14 +2,7 @@ public class rev {
 static void remove(int acc[]){
     int temp=acc[0];
     for(int i=0;i<acc.length;i++){
-        
-    }
-
-}
-
-
-
-
+        }}
     static void reverse(int arr4[]){
         int n=arr4.length;
         int start=0;
@@ -47,6 +40,7 @@ for(int i=0;i<n;i+=2){
         }
         System.out.println(" unique element is "+ans);
     }
+    
     public static void main(String[] args) {
         int arr4[]={1,2,3,4,5};
         reverse(arr4);

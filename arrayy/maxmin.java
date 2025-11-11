@@ -1,5 +1,5 @@
-class homework{
-    static void maximumm(int max[]){
+class maxmin{
+    static void maxmimum(int max[]){
 int n=max.length;
 int temp=max[0];
 for(int i=0;i<n;i++){

@@ -1,4 +1,4 @@
-public class homework2 {
+public class dup {
     static void duplicate(int arr4[]){
         int ans=0;
         // aGR EK HI DUPLICATE TERM PRESENT HO ARRAY ME TAB HI YEH LOGIC KAAM KRENGA OTHERWISE IT WILL PROVIDES WRONG ANSWER
