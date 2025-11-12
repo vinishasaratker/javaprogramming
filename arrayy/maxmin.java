@@ -1,5 +1,5 @@
 class maxmin{
-    static void maxmimum(int max[]){
+    static void maximum(int max[]){
 int n=max.length;
 int temp=max[0];
 for(int i=0;i<n;i++){
@@ -51,7 +51,7 @@ static void even(int arr5[]){
 
 public static void main(String[] args) {
         int max[]={34,87,65,66,54};
-        maximumm(max);
+        maximum(max);
         int minn[]={44,89,99,76,10};
         minimumm(minn);
         int mmax[]={54,67,89,23,76};
