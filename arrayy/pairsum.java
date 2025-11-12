@@ -14,8 +14,8 @@ if(arr5[i]+arr5[j]==target){
       num1=num2;
       num2=temp;
    }
-   int keypair=num1*10+num2;
-   boolean dup=false;
+        int keypair=num1*10+num2;
+               boolean dup=false;
    for(int k=0;k<index;k++){
       if(keypair==keyarray[k]){
          dup=true;
