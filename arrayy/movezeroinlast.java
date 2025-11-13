@@ -14,12 +14,12 @@ public class movezeroinlast
                if(arr5[i]!=-1 && count > 1){
           System.out.println(arr5[i] + " is duplicated " + count + " times");
       }   else if(arr5[i]!=-1 && count == 1){
-                      System.out.println(arr5[i] +" frequency count is :"+fc + " occurs only once");
+                      System.out.println(arr5[i] +" frequency count is :" + " occurs only once");
                       fc++;
 }  }   }
         public static void main(String[] args) {
 
-        int arr5[]={1,2,3,4,3,1,2,5,-4,7,6};
+        int arr5[]={1,2,3,4,3,1,2,5,4,7,6};
         twodup(arr5);
     }
 }
