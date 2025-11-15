@@ -41,6 +41,29 @@ for(int i=0;i<n;i+=2){
         System.out.println(" unique element is "+ans);
     }
     
+    static void pallindrom(int arr5[]){
+        int n=arr5.length;
+        
+        int start=0;
+        int end=n-1;
+        boolean ispalindrom=true;
+        while(start<end){
+            if(arr5[start]==arr5[end]){
+            ispalindrom=true;
+        break;}
+            start++;
+            end--;
+        }
+       
+       if(ispalindrom){
+        System.out.println(" array is pallindrom");
+       }
+       else if(!ispalindrom){
+        System.out.println(" not pallindrom");
+       }
+       
+
+    }
     public static void main(String[] args) {
         int arr4[]={1,2,3,4,5};
         reverse(arr4);
@@ -50,5 +73,8 @@ for(int i=0;i<n;i+=2){
 uniqueelement(unique);
 int acc[]={1,1,2,2,3,3,4};
 remove(acc);
+int arr5[]={1,2,3,7,9,10};
+pallindrom(arr5);
+
     }
 }
