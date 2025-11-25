@@ -8,7 +8,7 @@
 //                     return this.age;   }
 // }
 // public class encapsulation {
-// // data menbers of dunction s ko ek single entity class me bind krta hai jise encapsulation kehte hai 
+// // data members of function s ko ek single entity class me bind krta hai jise encapsulation kehte hai 
 // // DATA MEMBERS-- properties ,state 
 // //   function--METHOD,behaviour 
 // // fully encapsulated class ---- vo  hoti hai jisme all data members  private marked hote hai 
@@ -32,6 +32,9 @@ class human{
     void setweight(int w){
         this.weight=w;
     }
+    public void  setage(int a){
+        this.age=a;
+    }
 }
 
 class  male extends human{
@@ -44,10 +47,24 @@ class  male extends human{
 class encapsulation{
  // second --Enharitance--koi  class ki property  ko inherit kar lena kisi or class ke ander
 // ek main class ya super class hoti h or ek chind class hoti hai 
+
+// agr koi super class me property public  hai to hum usko publicaly subclasses me inheritkar skte hai 
+//agr super class me private hai or subclass me access lar rhe hai to not accessabble honga 
+// access modifier property               . mode of inheritance
+// public      public      ==public
+//public       private      ==== private  
+// public       protected      == protected
+// protected     public        === protected
+//  protected      protected   ====protected
+//protecred       private      ==private 
+// protectecd == apni class me access kar skte hai bahr access nahi kar skte hai but child
+// class access kar skti hai 
 public static void main(String[] args) {
     male obj1=new male();
-    System.out.println(obj1.age);
-     System.out.println(obj1.weight);
+    obj1.setage(20);
+    System.out.println("age is"+obj1.age);
+    obj1.setweight(54);
+     System.out.println("weight is"+obj1.weight);
       System.out.println(obj1.height);
        obj1.sleep();
     
