@@ -8,7 +8,7 @@
   //2*2
   //2*3
   // why we make three loop--- readability  ko shi krne ke liye mtlb kon se question me kon sa suitable honga
-  // do whilw loop ek bar to chalta hi chalta hai 
+  // do while loop ek bar to chalta hi chalta hai 
   // while--- exit control loop bhi khte hai 
 
     //     int i=9;

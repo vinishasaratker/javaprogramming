@@ -13,7 +13,7 @@
 //         return 0;
 //     }
 //     static String nam(){
-//         System.out.println("i am vinisha");// agr hame returnke sath value print krana hai to sout ke sath b function ko call krna pdenga 
+//         System.out.println("i am vinisha");// agr hame return ke sath value print krana hai to sout ke sath b function ko call krna pdenga 
 //         return" vini";
 //     }
 //     static char print(){
@@ -66,16 +66,16 @@
 // // recursion  jab function khud ko call krta h datatype only return type hota hai non return nhi hota hai
 // // or yeh ek loop ki trh kaam krta hai 
 // // fir loop ko rokne ke liye ek condition use krte hai
-// import java.util.Scanner;
-// class cw{
-//   static int summ(int n){
-// if(n==0) {return 0;}
-//     return summ(n-1)+n;
-//   }
-//   public static void main(String[] args) {
+import java.util.Scanner;
+class cw{
+  static int summ(int n){
+if(n==0) {return 0;}
+    return summ(n-1)+n;
+  }
+  public static void main(String[] args) {
    
-//        System.out.println(summ(10));    }
-// }
+       System.out.println(summ(10));    }
+}
 // // 10+summ(9)
 // //      9+sum(8)    
 //                 //8+ summ(7) 
@@ -87,13 +87,13 @@
 //                                  // 3+summ(2)
 //                                          //2+ summ(1) 
 //                                                // 1+ summ(0)
-import java.util.Scanner;
-class cw{
-  static int summ(int n){
-if(n==0) {return 1;}
-    return summ(n-1)*n;
-  }
-  public static void main(String[] args) {
+// import java.util.Scanner;
+// class cw{
+//   static int summ(int n){
+// if(n==0) {return 1;}
+//     return summ(n-1)*n;
+//   }
+//   public static void main(String[] args) {
    
-       System.out.println(summ(10));    }
-  }
+//        System.out.println(summ(10));    }
+//   }

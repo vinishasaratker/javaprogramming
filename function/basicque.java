@@ -10,7 +10,7 @@ public class basicque {
         }
     }
 static void sum(int c,int d){
-    System.out.println(" sum is +"+c+d);
+    System.out.println(" sum is +"  +c+d);
 }
 static void mul(int e,int f){
     System.out.println(" multiplication is+"+ "  "+ e*f);

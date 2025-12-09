@@ -7,7 +7,6 @@ class basic{
     //    relational operator >  <  >=  <=  == !=
     //    logical operator  and && or || not 
     //    bitwise = and or not xor
-
     // x-or---ya to different value ya to same value nikalna  hota hai
  int a=78;// decleration
  int b=12;//initialization
@@ -50,7 +49,7 @@ System.out.println(r|s);
   // ternary operator----
   int num=9;
   System.out.println((num%2==0)? "even":"odd");
-// else if
+// else -if
 int number=90;
 if(90%2==0){
   System.out.println("even");

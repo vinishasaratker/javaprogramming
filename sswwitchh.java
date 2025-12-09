@@ -27,7 +27,7 @@ class sswwitchh{
     public static void main(String[]args){
         char option;
         Scanner obj=new Scanner(System.in);
-        System.out.println(" enterany option");
+        System.out.println(" enter any option");
        option= obj.next().charAt(0);
        String result;
        switch(option){

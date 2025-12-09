@@ -113,7 +113,7 @@
 //     int num;
 //     System.out.println("enter any number");
 //     num=obj.nextInt();
-//     // programof alwaysprint positive number
+//     // program of always print positive number
 //     if(num<0){
 //       System.out.println(num*(-1));
 //     }

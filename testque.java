@@ -157,7 +157,7 @@
 // System.out.println(" enter customer  id student or aged");
 // customer= my.next();
 // if(customer.equals("student")){
-//     System.out.println(" you got  50 % discount+"+price*50/100);
+//     System.out.println(" you got  50 % discount+""+price*50/100);
 // }
 // else if(customer.equals("seniorcitizen")){
 //     System.out.println(" you got 30 % discount +"+" "+ price*30/100);

@@ -216,7 +216,7 @@
 //         meter=obj .nextInt();
 //         int cm;
 //         cm=meter*100;
-//         System.out.println(cm);
+//         System.out.println("in cm :"+cm);
 //      }
     
 //     }
