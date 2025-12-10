@@ -11,7 +11,7 @@ static void method1(int array[]){
             System.out.println(arr2[i]);
         }
     }
-      static void inputinarray(){
+      static void inputInArray(){
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter size of array: ");
         int n = obj.nextInt();
@@ -34,14 +34,13 @@ static void sumofarray(int sum[]){
 summ=summ+sum[i];
     }
     System.out.println(" the summetion is "+summ);
-
 }
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         int array[] = {23, 56, 798, 98};
         method1(array);
         int arr2[] = {2, 4, 6, 8, 10, 11};
         method2(arr2);
-         inputinarray();
+         inputInArray();
          int sum[]={1,2,3,4,5};
          sumofarray(sum);
     }

@@ -12,8 +12,7 @@ int n=arr1.length;
             if(arr1[i]!=-1){
                 System.out.println(arr1[i]+" "+count+"times");
             }
-
-        }
+}
     }
     public static void main(String[] args) {
      int arr1[]={1,2,2,23,5,5,6,8,90,7,7,6,5,4,32,23};
