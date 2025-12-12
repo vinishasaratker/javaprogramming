@@ -10,16 +10,21 @@ public class constructor{
     public static void main(String[] args) {
         student s1=new student("vinisha");
         System.out.println(s1.name);
-
-        
-    }
+        student s2=new student(78);
+        System.out.println(s2.age);
+ }
 }
 class student{
     String name;
     int age;
     student(String name){
+        // parameterised constructor 
         this.name=name;
 
-
+System.out.println("constructor is called");
+    }
+    student(int age){
+        this.age=age;
+        System.out.println("parameterised constructor is called");
     }
 }
