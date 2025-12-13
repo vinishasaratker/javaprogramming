@@ -3,6 +3,7 @@ static void remove(int acc[]){
     int temp=acc[0];
     for(int i=0;i<acc.length;i++){
         }}
+        
     static void reverse(int arr4[]){
         int n=arr4.length;
         int start=0;

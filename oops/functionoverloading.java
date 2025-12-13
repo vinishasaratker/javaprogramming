@@ -12,6 +12,7 @@ d.eat();
     }
 }
 
+
 class animal{
     void eat(){
         System.out.println("eat food");
@@ -34,4 +35,5 @@ return a+b;
     int sum(int a,int b,int c){
         return a+b+c;
     }
+    
 }

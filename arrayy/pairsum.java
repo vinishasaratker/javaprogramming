@@ -23,15 +23,12 @@ if(arr5[i]+arr5[j]==target){
       }
       if(!dup){
          System.out.println(num1+" "+num2);
-         keyarray[index++]=keypair;
-      }
+         keyarray[index++]=keypair;     }
    }
 }
          }
       }
-      
-
-   }
+       }
    public static void main(String[] args) {
       int arr5[]={1,2,3,4,5,4,3,2,1,4,5,6,0};
       ps(arr5);
