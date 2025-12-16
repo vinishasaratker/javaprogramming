@@ -15,6 +15,7 @@ public class copyconstructor {
 }
 
 class student{
+
         String name;
         int age;
         String passward;
@@ -25,6 +26,7 @@ this.age= s1.age;
 this.passward=s1.passward;
 }
  student( String name,int age){
+    
             this.name=name;
             this.age=age; }
     

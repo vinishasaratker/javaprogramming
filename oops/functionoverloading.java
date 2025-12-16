@@ -6,6 +6,7 @@ public class functionoverloading {
         System.out.println(calc.sum( (float)1.6,(float)3.7));
         System.out.println(calc.sum(1,3,6));
         animal obj=new animal();
+        
 obj.eat();
 dog d=new dog();
 d.eat();

@@ -20,5 +20,6 @@ class king implements chessplayer{
 class baby  implements chessplayer{
     public void moves(){
         System.out.println(" hyyy baby ");
+        System.out.println(" hello vn here");
     }
 }
