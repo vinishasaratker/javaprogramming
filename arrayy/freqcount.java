@@ -6,8 +6,8 @@ int n=arr1.length;
             for(int j=i+1;j<n;j++){
                 if(arr1[i]==arr1[j]){
                     ++count;
-                    arr1[j]=-1;
-                }
+                    arr1[j]=-1;  
+                 }
             }
             if(arr1[i]!=-1){
                 System.out.println(arr1[i]+" "+count+"times");
