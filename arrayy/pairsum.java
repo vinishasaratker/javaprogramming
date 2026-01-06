@@ -21,6 +21,7 @@ if(arr5[i]+arr5[j]==target){
       if(keypair==keyarray[k]){
          dup=true;
          break;
+         
       }
       if(!dup){
          System.out.println(num1+" "+num2);

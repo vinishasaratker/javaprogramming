@@ -18,7 +18,6 @@ static void minimumm(int minn[]){
         }
     }
     System.out.println(" minimum valure is"+temp);
-
 }
 static  void secondmax(int mmax[]){
     int temp=mmax[0];
@@ -32,9 +31,7 @@ for(int i=1;i<n;i++){
     if(mmax[i]>smax && mmax[i]!=temp){
 smax=mmax[i];
     }
-}
-
-System.out.println(" second maximum valu is "+smax);
+}System.out.println(" second maximum valu is "+smax);
 }
 
 static void even(int arr5[]){
