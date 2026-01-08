@@ -52,6 +52,8 @@
     // for(int i=1;i<=10;i++){
     //     System.out.println(n6*i);
     // }
+
+
   import java.util.Scanner;
   class loop1{
     public static void main(String[] args) {

@@ -15,7 +15,7 @@
 //         System.out.println(" 31 days in there month");
 //      }
 //      else if(month==2){
-//         System.out.println("28/29 days in this monrh");
+//         System.out.println("28/29 days in this month");
 //      }
 //      else{
 //         System.out.println("invalid");
@@ -42,9 +42,9 @@
 //         int ans;
 //         ans=(temp-32)*5/9;
 //         System.out.println(ans+" "+"tempreture in celsius");
+         
+//}
 
-
-//     }
 //     else if(option==2){
 //          int temp;
 //         System.out.println("enter tempreture in  celsius");
@@ -58,9 +58,8 @@
 //         System.out.println("invalid");
 //     }
 //     }
+                 // }
 
-
-// }
 // import java.util.Scanner;
 // public class elseif{
 //     public static void main(String[] args) {
@@ -139,8 +138,8 @@
 // // public class elseif{
 // //     public static void main(String[] args) {
         
-// // //         Library Fine Calculation If book is returned: Within 7 days → no fine.
-// // // 8–15 days late → ₹2 per day fine. More than 15 days late → ₹5 per day fine.
+ // //         Library Fine Calculation If book is returned: Within 7 days → no fine.
+ // 8–15 days late → ₹2 per day fine. More than 15 days late → ₹5 per day fine.
 
 // // int days;
 // // Scanner obj=new Scanner(System.in);
@@ -218,8 +217,7 @@
 //         cm=meter*100;
 //         System.out.println("in cm :"+cm);
 //      }
-    
-//     }
+    //     }
       import java.util.Scanner;
 public class elseif{
      public static void main(String[] args)
@@ -229,8 +227,6 @@ public class elseif{
         by=obj .nextInt();
         float kb;
 kb=by/1024;
-
-
 System.out.println( " "+kb);
 }
 }

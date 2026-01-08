@@ -1,6 +1,5 @@
 public class basicque {
-
-    static void largest(int a, int b, int c) {
+static void largest(int a, int b, int c) {
         if (a > b && a > c) {
             System.out.println("a is greatest: " + a);
         } else if (b > a && b > c) {
@@ -9,12 +8,15 @@ public class basicque {
             System.out.println("c is greatest: " + c);
         }
     }
+
 static void sum(int c,int d){
     System.out.println(" sum is +"  +c+d);
 }
+
 static void mul(int e,int f){
     System.out.println(" multiplication is+"+ "  "+ e*f);
 }
+
 static void iseven(int n){
     if(n%2==0){
         System.out.println("even");

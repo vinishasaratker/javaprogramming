@@ -97,8 +97,7 @@
 //     public static void main(String[] args) {
 //       int z=5;
 //       int p=9;
-//       int temp;
-//       temp=z;
+//       int temp=z;
 //       z=p;
 //      p=temp;
 //       System.out.println(z);  

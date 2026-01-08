@@ -8,9 +8,7 @@ public class hospitalque {
      int bil;
 
      //********** */
-
-
-     if(patient.equals("CVR")){
+        if(patient.equals("CVR")){
        System.out.println("your patient is serious :");
        String ward;
      System.out.println("enter ward number according to patient condition :");
@@ -61,9 +59,7 @@ if(option==1){
 } }
 ///******************************** */
 
-
-
-     else if(patient.equals("normal")){
+          else if(patient.equals("normal")){
       System.out.println(" your patient is good");
        String ward;
      System.out.println("enter ward number according to patient condition");

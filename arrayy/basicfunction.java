@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class basicfunction {
 static void method1(int array[]){
+    
         System.out.println(array[3]);
         System.out.println(array[1]);
         System.out.println(array[0]);

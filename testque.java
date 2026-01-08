@@ -32,12 +32,12 @@
 // import java.util.Scanner;
 // class testque{
 //     public static void main(String[] args) {
-    //    // largest digit of a three digit numberquestion
+       // largest digit of a three digit number question??
 //         Scanner tq=new Scanner(System.in);
 //         int num;
 //         System.out.println(" enter any three digit number");
 //         num=tq.nextInt();
-//         if(num>=100 &&num<=999){
+//         if(num>=100 &&num <=999){
 // int digit3;
 // digit3=num%10;
 // num=num/10;
@@ -193,11 +193,13 @@ class testque{
         seconds=sec.nextInt();
         int hours;
         hours=seconds/3600;
+        // yha humne divide (/) kiya hai divide krne se hamko integer value hour me mil jayengi 
         int remainingsecond=seconds%3600;
+        // (%) ka  use remainder nikkalne ke liye krte hai  to jo divide ni ho rha honga vo ans aa jayenga 
         int minute;
         minute=remainingsecond/60;
         int seco;
         seco=remainingsecond%60;
-        System.out.println(" total time is +" +" "+ hours  + " "+ minute+" "+ seco);
+        System.out.println(" total time is +" +" "+ hours  + " hour"+ minute+" minite"+ seco+"second ");
     }
 }

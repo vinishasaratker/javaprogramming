@@ -33,8 +33,6 @@ System.out.println(a>b);
 System.out.println(a<b);//upper bounded language hone ke karan  true or false ho rha hai
 System.out.println(a<=b);
 
-
-
 boolean c=true;
 boolean d=true;
 System.out.println(c&&d);

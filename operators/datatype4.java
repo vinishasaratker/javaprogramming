@@ -30,8 +30,6 @@ System.out.println("enteer a value");
 int a=datatype4.nextInt();
 System.out.println(a);
 
-
-
 System.out.println("enter your persentage");
 double h= datatype4.nextDouble();
 System.out.println(h);
@@ -41,8 +39,5 @@ System.out.println("sizeof double");
 System.out.println(Double.SIZE/8);
 System.out.println("size of charactor");
 System.out.println(Character.BYTES);// here charactor  have 2 bytes due to it follows the unicode pattern
-
-
 }
-
 }
