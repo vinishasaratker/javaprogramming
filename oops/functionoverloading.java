@@ -12,8 +12,6 @@ dog d=new dog();
 d.eat();
     }
 }
-
-
 class animal{
     void eat(){
         System.out.println("eat food");
