@@ -37,8 +37,6 @@ class three extends two{
     }
 
 }
-
-
 class polymorphism{
     public static void main(String[] args) {
         two obj;

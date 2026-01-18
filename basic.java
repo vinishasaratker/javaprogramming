@@ -27,7 +27,6 @@ System.out.println(a%b);
     a*=b;
      System.out.println(a);
 
-
      // relational--shows relation between two things 
 System.out.println(a>b);
 System.out.println(a<b);//upper bounded language hone ke karan  true or false ho rha hai
