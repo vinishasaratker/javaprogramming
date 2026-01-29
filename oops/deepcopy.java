@@ -10,6 +10,7 @@ public class deepcopy {
 }
 
 class Copy{
+    
 String name[];
 Copy(String name[]){
     this.name=name;
