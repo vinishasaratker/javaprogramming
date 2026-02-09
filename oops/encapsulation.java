@@ -36,7 +36,6 @@ class human{
         this.age=a;
     }
 }
-
 class  male extends human{
     String color;
     void sleep(){
@@ -69,6 +68,4 @@ public static void main(String[] args) {
        obj1.sleep();
     
 }
-
-
 }

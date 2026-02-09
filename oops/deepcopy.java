@@ -17,7 +17,8 @@ Copy(String name[]){
 }
 Copy(Copy obj1){
     this.name=new String[obj1.name.length];
-    for(int i=0;i<obj1.name.length;i++){
+    for(int i=0;i<obj1.name.length;i++);
+        {
         name[i]=obj1.name[i];
     }
 }
