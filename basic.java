@@ -15,9 +15,13 @@ class basic{
 // sari system ki functionality system class ke andr honi chahiye isliye system ke andr out hota hai
 
 System.out.println(a+b);
+
 System.out.println(a-b);
+
 System.out.println(a*b);
+
 System.out.println(a/b);
+
 System.out.println(a%b);
 
 //assignmentnt operator  do not repeat your self dry principal ko follow krta hai
@@ -48,6 +52,7 @@ System.out.println(r|s);
   System.out.println((num%2==0)? "even":"odd");
 // else -if
 int number=90;
+
 if(90%2==0){
   System.out.println("even");
 }    
