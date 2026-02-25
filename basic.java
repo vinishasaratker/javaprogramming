@@ -57,7 +57,7 @@ if(90%2==0){
   System.out.println("even");
 }    
 else{
-  System.out.println("odd");
+  System.out.println("odd.");
 }
 // positive negative or zero
 int m=89;
