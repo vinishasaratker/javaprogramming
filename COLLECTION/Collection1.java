@@ -9,11 +9,11 @@ public static void main(String[] args) {
 i.add("mohini");
 System.out.println(i);
 
-
-    List l=new ArrayList();
+ List l=new ArrayList();
     System.out.println("second method of printing values...");
     l.add("vinisha ");
     System.out.println(l);
+
     System.out.println("third method of printing  array list have all the methods ");
     ArrayList list=new ArrayList();
     list.add(10);
@@ -23,5 +23,13 @@ System.out.println(i);
     list.add(3.14);
     list.add(true);
     System.out.println(list);
+// combination of array list 
+ArrayList al2=new ArrayList<>();
+al2.add("RASHMII");
+al2.add(45);
+
+System.out.println("combination of two objects ");
+list.addAll(al2);
+System.out.println(list);
 
 }}
