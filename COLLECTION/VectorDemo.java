@@ -40,7 +40,6 @@ public class VectorDemo {
                 }
             }
         }
-
         System.out.println("After removing false:");
         System.out.println(v);
     }
