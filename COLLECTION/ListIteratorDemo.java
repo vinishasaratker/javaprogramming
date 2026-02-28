@@ -12,10 +12,8 @@ public class ListIteratorDemo {
         list.add(54);
 
         ListIterator<Integer> ltr = list.listIterator();
-
-        System.out.println("Print elements in forward direction");
-
-        while (ltr.hasNext()) {
+       System.out.println("Print elements in forward direction");
+         while (ltr.hasNext()) {
             int x = ltr.next();
 
             if (x == 5) {
@@ -27,13 +25,11 @@ public class ListIteratorDemo {
             else if (x == 54) {
                 ltr.add(999);
             }
-
-            System.out.println("\t===>" + x);
+        System.out.println("\t===>" + x);
         }
 
         System.out.println("Updated List: " + list);
-
-        System.out.println("Print elements in backward direction");
+       System.out.println("Print elements in backward direction");
 
         while (ltr.hasPrevious()) {
             System.out.println("\t===>" + ltr.previous());
