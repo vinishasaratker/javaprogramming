@@ -28,7 +28,7 @@ if(option==1){
 }
 
      else if(option==2){
-      System.out.println("shifting in another ward according to doctor ");
+      System.out.println("shifting in another ward according to doctor ..");
 
      }
       
