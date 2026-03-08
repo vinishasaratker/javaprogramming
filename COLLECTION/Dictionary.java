@@ -18,6 +18,7 @@ while(e.hasMoreElements()){
     Integer k=e.nextElement();
     System.out.println("key is : "+k+" "+ " value is :"+h.get(k));
 }
+
 Map<Integer,Integer> h1=new Hashtable<Integer,Integer>();
 h1.put(3,78);
 h1.put(67,88);

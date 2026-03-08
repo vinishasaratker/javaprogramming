@@ -62,8 +62,7 @@ for(int i=0;i<n;i+=2){
        else if(!ispalindrom){
         System.out.println(" not pallindrom");
        }
-       
-
+    
     }
     public static void main(String[] args) {
         int arr4[]={1,2,3,4,5};
