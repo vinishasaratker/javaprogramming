@@ -5,8 +5,9 @@ public class pairsum{
       int keyarray[]=new int[100];
       int index=0;
       for(int i=0;i<arr5.length;i++){
+
          for(int j=i+1;j<arr5.length;j++){
-if(arr5[i]+arr5[j]==target){
+   if(arr5[i]+arr5[j]==target){
    int num1=arr5[i];
    int num2=arr5[j];
    if(num1>num2){
@@ -28,9 +29,12 @@ if(arr5[i]+arr5[j]==target){
 
          keyarray[index++]=keypair;     }
    }
-}
+
+   }
          }
+
       }
+      
        }
    public static void main(String[] args) {
       int arr5[]={1,2,3,4,5,4,3,2,1,4,5,6,0};
