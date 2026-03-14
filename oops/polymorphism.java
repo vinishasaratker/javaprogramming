@@ -30,13 +30,12 @@ class two{
         
     }
 }
-
 class three extends two{
     void sum(){
         System.out.println("sum3");
     }
-
 }
+
 class polymorphism{
     public static void main(String[] args) {
         two obj;
@@ -44,7 +43,5 @@ class polymorphism{
         obj.sum();
         obj=new three();
         obj.sum();
-
-
-    }
+ }
 }

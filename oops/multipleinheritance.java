@@ -11,7 +11,6 @@ public class multipleinheritance {
        System.out.println(" kobra is "+ kobra.teeth);
     }
 }
-
 class janwar{
     String eat;
     String color;

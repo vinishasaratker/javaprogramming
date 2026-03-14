@@ -25,13 +25,13 @@ if(option==1){
         bil=days*3000;
         System.out.println(" your bill is +"+" "+bil);
         } 
-}
+          }
 
      else if(option==2){
       System.out.println("shifting in another ward according to doctor ..");
- }
+   }
   
-}
+  }
         //******************* */
      else if(patient.equals("mediator")) {
 System.out.println(" your patient is in  critical  condition");
@@ -74,9 +74,9 @@ if(option==1){
         System.out.println(" your bill is +"+" "+bil);}
       }  }
 
-
      else{
       System.out.println("invalid");
      }
+
   }  
 }
