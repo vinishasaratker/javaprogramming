@@ -1,9 +1,9 @@
 
-// repetative tast    same work perform krna hai multiple time
+// repetative tast ------ >  same work perform krna hai multiple time
 //2*2
 //2*2
 //2*2
-  // iteration    same kind of work
+  // iteration ------>   same kind of work
   //2*1
   //2*2
   //2*3

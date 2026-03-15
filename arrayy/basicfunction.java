@@ -5,14 +5,15 @@ static void method1(int array[]){
         System.out.println(array[3]);
         System.out.println(array[1]);
         System.out.println(array[0]);
-    }
-     static void method2(int arr2[]){
+       }
+
+        static void method2(int arr2[]){
         int n = arr2.length;
         for(int i = 0; i < n; i++){
-            System.out.println(arr2[i]);
+        System.out.println(arr2[i]);
         }
     }
-      static void inputInArray(){
+        static void inputInArray(){
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter size of array: ");
         int n = obj.nextInt();

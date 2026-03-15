@@ -35,7 +35,6 @@ class three extends two{
         System.out.println("sum3");
     }
 }
-
 class polymorphism{
     public static void main(String[] args) {
         two obj;
