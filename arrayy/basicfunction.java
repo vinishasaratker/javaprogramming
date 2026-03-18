@@ -7,7 +7,7 @@ static void method1(int array[]){
         System.out.println(array[0]);
        }
 
-        static void method2(int arr2[]){
+    static void method2(int arr2[]){
         int n = arr2.length;
         for(int i = 0; i < n; i++){
         System.out.println(arr2[i]);
@@ -35,7 +35,7 @@ static void sumofarray(int sum[]){
     for(int i=0;i<n;i++){
 summ=summ+sum[i];
     }
-    System.out.println(" the summetion is "+summ);
+    System.out.println(" the summetion is :"+summ);
 }
    public static void main(String[] args) {
         int array[] = {23, 56, 798, 98};

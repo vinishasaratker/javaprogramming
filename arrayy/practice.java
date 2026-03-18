@@ -7,7 +7,7 @@ public class practice
 if(arr1[i]>big){
    big=arr1[i];  
 }
-        }System.out.println( "maximum number is "+big);
+        }System.out.println( "maximum number is : "+big);
        
         }
         static void reverse(int arr2[]){
@@ -22,7 +22,7 @@ if(arr1[i]>big){
             start++;
         end--; }
         for(int i=0;i<n;i++){
-            System.out.println( "reverse array is "+arr2[i]);
+            System.out.println( "reverse array is  :"+arr2[i]);
         }}
         static void sum(int arr3[]){
             int sum=0;
@@ -30,7 +30,7 @@ if(arr1[i]>big){
             for(int i=0;i<n;i++){
                sum=sum+arr3[i]; 
             }
-            System.out.println("sum is "+ sum);
+            System.out.println("sum is : "+ sum);
         }
         
         
