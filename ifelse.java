@@ -221,7 +221,8 @@ public class ifelse {
                 System.out.println("Your profit is " + (sp - cp));
             }
 
-        } else if (cp > sp) {  // Loss case
+        }
+         else if (cp > sp) {  // Loss case
             String option;
             System.out.println("Enter option yes or no:");
             option = obj.next();
