@@ -4,8 +4,8 @@ public class practice
         int n=arr1.length;
         int big=arr1[0];
         for(int i=0;i<n;i++){
-   if(arr1[i]>big){
-   big=arr1[i];  
+      if(arr1[i]>big){
+       big=arr1[i];  
        }
         }System.out.println( "maximum number is : "+big);
        
@@ -16,12 +16,14 @@ public class practice
             int n=arr2.length;
              int end=n-1;
           while( start<=end){
+
                 int temp=arr2[start];
                 arr2[start]=arr2[end];
                 arr2[end]=temp; 
                 start++;
                  end--; }
-        for(int i=0;i<n;i++){
+
+            for(int i=0;i<n;i++){
             System.out.println( "reverse array is  :"+arr2[i]);
         }}
             static void sum(int arr3[]){
@@ -41,5 +43,6 @@ public class practice
         int arr3[]={1,2,4,5,3};
         sum(arr3);
     }
+
     
 }
