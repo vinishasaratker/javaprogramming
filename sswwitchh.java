@@ -39,6 +39,7 @@ case '3': System.out.println("case3");
 break;
 case '4': System.out.println("case4");
  break;
+ case '5': System.out.println("case 5 ");
  default: System.out.println("invalid");
        };
     }
