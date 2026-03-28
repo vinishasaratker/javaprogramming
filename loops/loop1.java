@@ -1,9 +1,8 @@
-
 // repetative tast ------ >  same work perform krna hai multiple time
 //2*2
 //2*2
 //2*2
-  // iteration ------>   same kind of work
+// iteration ------>   same kind of work
   //2*1
   //2*2
   //2*3
@@ -13,7 +12,8 @@
 
     //     int i=9;
     //     do{
-    //         System.out.println(i++);}
+    //      System.out.println(i++);
+    //}
     //      while(i<=19);
     //     System.out.println("   ");
     //     int b=2;
@@ -30,7 +30,7 @@
     // for(int i=1;i<=10;i++){
     //     System.out.println(n*i);
     // }
-    //     System.out.println(" enter any number 2");
+    //  System.out.println(" enter any number 2");
     // int n2=obj.nextInt();
     // for(int i=1;i<=10;i++){
     //     System.out.println(n2*i);
@@ -54,8 +54,8 @@
     // }
 
 
-  import java.util.Scanner;
-  class loop1{
+   import java.util.Scanner;
+   class loop1{
     public static void main(String[] args) {
     int m=5;
     int fact=1;
@@ -63,4 +63,4 @@
          fact=fact*i;}
     System.out.println(fact);
     }
-  }
+    }

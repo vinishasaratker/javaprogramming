@@ -40,6 +40,7 @@ break;
 case '4': System.out.println("case4");
  break;
  case '5': System.out.println("case 5 ");
+ case '6':System.out.println("case 6 here ");
  default: System.out.println("invalid");
        };
     }
