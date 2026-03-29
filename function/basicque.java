@@ -25,6 +25,12 @@ static void iseven(int n){
         System.out.println("odd");
     }
 }
+
+static void square(int n){
+    int ans =n*n ;
+   System.out.println(ans+" "+"<== answer is ");
+
+}
 static void largestofthreedigits(int n1){
     if(n1>99 && n1<1000){
         int ld=n1%10;
@@ -42,11 +48,20 @@ static void largestofthreedigits(int n1){
          else if  (ld3>ld2 && ld3>ld){
             System.out.println(" last digit third is greater +"+ld3);}
     }}
+
+    static void printing(int n){
+        for(int i=1;i<n;i++){
+            System.out.println(i);
+        }
+
+    }
     public static void main(String[] args) {
         largest(4, 7, 8);  // just call the method, don’t print it
         sum(6,9);
         mul(6,9);
         iseven(90);
         largestofthreedigits(890);
+        square(4);
+      printing(78);
     }
 }
