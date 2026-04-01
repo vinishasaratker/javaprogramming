@@ -38,11 +38,11 @@ System.out.println(" your patient is in  critical  condition");
 String ward;
      System.out.println("enter ward number according to patient condition");
      ward=obj.next();
-if(ward.equals("private")){
+   if(ward.equals("private")){
  int option;
      System.out.println("enter 1 for billing and 2for shifting in normal ward");
      option=obj.nextInt();
-if(option==1){  
+    if(option==1){  
   int days;
    System.out.println("enter days in hospital");
      days=obj.nextInt();
@@ -55,7 +55,7 @@ if(option==1){
 } }
 ///******************************** */
 
-          else if(patient.equals("normal")){
+        else if(patient.equals("normal")){
       System.out.println(" your patient is good");
        String ward;
      System.out.println("enter ward number according to patient condition");
@@ -64,9 +64,9 @@ if(option==1){
       if(ward.equals("general")){
 
         int option;
-     System.out.println("enter 1 for billing and 2for shifting in normal ward");
-     option=obj.nextInt();
-if(option==1){
+       System.out.println("enter 1 for billing and 2for shifting in normal ward");
+      option=obj.nextInt();
+      if(option==1){
         int days;
         System.out.println("enter days in hospital");
         days=obj.nextInt();
