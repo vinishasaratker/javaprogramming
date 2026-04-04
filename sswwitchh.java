@@ -23,25 +23,34 @@
 // 4. nesting possible to hai lekin readability kam ho jayengi  or complex code ho jayenga
 
 import java.util.Scanner;
-class sswwitchh{
-    public static void main(String[]args){
+
+class sswwitchh {
+    public static void main(String[] args) {
         char option;
-        Scanner obj=new Scanner(System.in);
+        Scanner obj = new Scanner(System.in);
         System.out.println(" enter any option");
-       option= obj.next().charAt(0);
-       String result;
-       switch(option){
-case '1': System.out.println("case1");
-break;
-case '2': System.out.println("case2");
-break;
-case '3': System.out.println("case3");
-break;
-case '4': System.out.println("case4");
- break;
- case '5': System.out.println("case 5 ");
- case '6':System.out.println("case 6 here ");
- default: System.out.println("invalid");
-       };
+        option = obj.next().charAt(0);
+        String result;
+        switch (option) {
+            case '1':
+                System.out.println("case1");
+                break;
+            case '2':
+                System.out.println("case2");
+                break;
+            case '3':
+                System.out.println("case3");
+                break;
+            case '4':
+                System.out.println("case4");
+                break;
+            case '5':
+                System.out.println("case 5 ");
+            case '6':
+                System.out.println("case 6 here ");
+            default:
+                System.out.println("invalid");
+        }
+        ;
     }
 }
