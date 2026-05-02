@@ -7,7 +7,9 @@ public class PrintingSubArray {
             for (int j = i; j < numbers.length; j++) {
                 int end = j;
                 for (int k = start; k <= end; k++) {
+                    
                     System.out.print(numbers[k] + " ");
+                 
                 }
                 System.out.println();
             }
