@@ -31,7 +31,7 @@
 
 // }    }
 //  }
-    
+
 // }
 // import java.util.Scanner;
 // class ifelse
@@ -60,7 +60,7 @@
 // class ifelse
 // {
 //     public static void main(String[] args) {
-        
+
 //       Scanner obj=new Scanner(System.in);  
 //       int day;
 //       System.out.println(" enter any day");
@@ -87,8 +87,6 @@
 //             else if(day==7){
 //         System.out.println("sunday");
 //       }
-      
-
 
 //     }
 // }
@@ -106,7 +104,7 @@
 // }
 // import java.util.Scanner;
 //  public class ifelse {
- 
+
 //   public static void main(String[] args) {
 //     Scanner obj=new Scanner(System.in);
 //     int num;
@@ -120,12 +118,11 @@
 //       System.out.println(num);
 //     }
 
-
 //   }
 //  }
 // class ifelse{
 //   public static void main(String[] args) {
-    
+
 //     int s=6;
 //     int t=9;
 //     s=s+t;
@@ -159,7 +156,7 @@
 // public class ifelse {
 
 //   public static void main(String[] args) {
-    
+
 // Scanner obj=new Scanner(System.in);
 // int cp;
 // int sp;
@@ -177,13 +174,12 @@
 //     System.out.println("your profit is"+" "+(sp-cp));
 //   }
 
-
 // }
 // else if(cp>sp){
 //    String option;
 //   System.out.println("enter option yes or no");
 //   option=obj.next();
-  
+
 //   if(option.equals("yes")){
 // System.out.println("your loss is"+" "+(cp-sp));
 //   }
@@ -210,7 +206,7 @@ public class ifelse {
         cp = obj.nextInt();
         sp = obj.nextInt();
 
-        if (cp < sp) {  // Profit case
+        if (cp < sp) { // Profit case
             String option;
             System.out.println("Enter option yes or no:");
             option = obj.next();
@@ -221,8 +217,7 @@ public class ifelse {
                 System.out.println("Your profit is " + (sp - cp));
             }
 
-        }
-         else if (cp > sp) {  // Loss case
+        } else if (cp > sp) { // Loss case
             String option;
             System.out.println("Enter option yes or no:");
             option = obj.next();
@@ -232,7 +227,7 @@ public class ifelse {
             } else {
                 System.out.println("Your loss is " + (cp - sp));
             }
-        } else {  // No profit, no loss
+        } else { // No profit, no loss
             System.out.println("No profit, no loss.");
         }
     }
