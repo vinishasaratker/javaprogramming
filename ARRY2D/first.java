@@ -3,6 +3,23 @@ package ARRY2D;
 import java.util.Scanner;
 
 public class first {
+    public static boolean search(int matrix[][], int key) {
+
+        for (int i = 0; i < matrix.length; i++) {
+
+            for (int j = 0; j < matrix[0].length; j++) {
+
+                if (matrix[i][j] == key) {
+
+                    System.out.println("found element at " + i + " " + j);
+
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
 
     public static void main(String[] args) {
 
@@ -34,5 +51,6 @@ public class first {
             System.out.println();
         }
 
+        search(matrix, 8);
     }
 }
