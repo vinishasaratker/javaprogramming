@@ -49,7 +49,7 @@ class sswwitchh {
             case '6':
                 System.out.println("case 6 here ");
             default:
-                System.out.println("invalid");
+                System.out.println("invalid  ");
         }
         ;
     }

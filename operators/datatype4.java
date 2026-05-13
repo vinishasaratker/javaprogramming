@@ -6,6 +6,7 @@ class datatype4 {
         System.out.println("hiii");
         // jo byte short int long hota hai vo integer store krte hai short short value
         // ko or long or int higher values ko store krte hai
+        
         byte b = 1;
         int nu=9;
         short s = 78;
