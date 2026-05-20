@@ -19,6 +19,7 @@ if(n==1 || n==0){
     int total=fm1+fm2;
     return total ;
 }
+
   public static void main(String[] args) {
          int arr[]={2,4,5,6,7,5,99,9,0};
          System.out.println(firstoccurence(arr, 5, 0));

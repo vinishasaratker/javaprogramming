@@ -228,6 +228,8 @@ public class ifelse {
                 System.out.println("Your loss is " + (cp - sp));
             }
         } else { // No profit, no loss
+
+            
             System.out.println("No profit, no loss.");
         }
     }
