@@ -1,7 +1,6 @@
 class basic {
   public static void main(String[] args) {
-
-    // binary-- it performs multiple operands
+ // binary-- it performs multiple operands
     // arithmetic + - * /
     // assignment operator += -= *= /= %=
     // relational operator > < >= <= == !=
@@ -25,7 +24,6 @@ class basic {
     System.out.println(a / b);
 
     System.out.println(a % b);
-
     // assignmentnt operator do not repeat your self dry principal ko follow krta
     // hai
     // priority of equal(=) operator is very less

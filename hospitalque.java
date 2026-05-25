@@ -78,7 +78,7 @@ public class hospitalque {
       }
     }
 
-    else {
+  else {
       System.out.println("invalid");
     }
 
