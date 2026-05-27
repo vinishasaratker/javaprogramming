@@ -29,7 +29,7 @@ public static void duplicateInstring(String str ,int index,boolean map[],StringB
     char currentchar=str.charAt(index);
 
     if(map[currentchar-'a']==true){
-duplicateInstring(str, index+1, map, newstr);
+   duplicateInstring(str, index+1, map, newstr);
     }
     else{
         map[currentchar-'a']=true;
@@ -66,23 +66,28 @@ public static void printBinaryString(int n,int lastplace,String str){
        return ;
     }
     // kaam 
-    if(lastplace==0){
+    if(lastplace==0)
+        {
         printBinaryString(n-1, 0, "0");
         printBinaryString(n-1, 1, "1");
     }
+
 
     else{
         printBinaryString(n-1, 0, "0");
     }
 }
+
   public static void main(String[] args) {
          int arr[]={2,4,5,6,7,5,99,9,0};
-         System.out.println(firstoccurence(arr, 5, 0));
+
+           System.out.println(firstoccurence(arr, 5, 0));
           System.out.println(tilingproblrm(4));
-String str="vviinuishaa";
+
+           String str="vviinuishaa";
           duplicateInstring(str,0, new boolean[26], new StringBuilder(""));
-   System.out.println(friendsPairing(3));
+           System.out.println(friendsPairing(3));
    
-   printBinaryString(3, 0, "");
+         printBinaryString(3, 0, "");
         }
 }

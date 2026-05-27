@@ -1,5 +1,5 @@
 package DivideAndConquere;
-
+// this   problem is for rotated shorted array array rotate or short hona chahiye 
 public class Keysearch {
 public static int search(int arr[],int si,int tar,int ei){
         if(si>ei)// base case 
@@ -38,7 +38,7 @@ else{
     }
     public static void main(String[] args) {
         
-        int arr[]={1,3,7,1,4};
+        int arr[]={4,5,6,7,0,1,2};
        
     
 int targetIndex=search(arr, 0, 4, arr.length-1);
