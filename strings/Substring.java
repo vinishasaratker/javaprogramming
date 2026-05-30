@@ -15,3 +15,20 @@ substr+=str.charAt(i);
         printsubstr(str);
     }
 }
+
+//                            ""
+//                     /               \
+//                  yes(a)            no(a)
+//                  /                    \
+//                "a"                     ""
+//             /       \               /      \
+//         yes(b)     no(b)        yes(b)    no(b)
+//          /            \           /          \
+//       "ab"            "a"       "b"          ""
+//       /   \          /   \      /   \       /   \
+//  yes(c) no(c)   yes(c) no(c) yes(c) no(c) yes(c) no(c)
+//    /       \       /      \     /      \     /      \
+// "abc"    "ab"   "ac"    "a"  "bc"    "b"   "c"     ""
+
+//  PRINT   PRINT   PRINT  PRINT PRINT  PRINT PRINT   PRINT
+//   abc      ab      ac     a     bc     b      c      ""

@@ -33,16 +33,11 @@ public static int search(int arr[],int si,int tar,int ei){
 else{
     return search(arr, si, tar, mid-1);
 }
-
- }
-    }
+}   }
     public static void main(String[] args) {
         
         int arr[]={4,5,6,7,0,1,2};
-       
-    
-int targetIndex=search(arr, 0, 4, arr.length-1);
+       int targetIndex=search(arr, 0, 4, arr.length-1);
    System.out.println(targetIndex);
-
 }
 }
