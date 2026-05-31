@@ -3,7 +3,10 @@ package DivideAndConquere;
 public class Keysearch {
 public static int search(int arr[],int si,int tar,int ei){
         if(si>ei)// base case 
-        { return -1 ;}
+        { return -1 ;
+
+        }
+
 // kaam 
  int mid=si+(ei-si)/2;
  // case found 
@@ -31,8 +34,10 @@ public static int search(int arr[],int si,int tar,int ei){
     }
 // case d jab line l2 ke left side pr ho 
 else{
+
     return search(arr, si, tar, mid-1);
 }
+
 }   }
     public static void main(String[] args) {
         
