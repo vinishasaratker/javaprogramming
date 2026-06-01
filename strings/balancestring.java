@@ -1,6 +1,7 @@
-    import java.util.Stack;
+import java.util.Stack;
+
 public class balancestring {
-  
+
     public static void main(String[] args) {
         String brac = "{([ ])}";
         Stack<Character> stack = new Stack<>();
@@ -34,9 +35,7 @@ public class balancestring {
 
     static boolean isMatching(char open, char close) {
         return (open == '(' && close == ')')
-            || (open == '[' && close == ']')
-            || (open == '{' && close == '}');
+                || (open == '[' && close == ']')
+                || (open == '{' && close == '}');
     }
 }
-
-
