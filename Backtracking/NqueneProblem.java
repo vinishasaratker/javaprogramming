@@ -1,5 +1,6 @@
 package Backtracking;
 
+// time complexit O(n!) n factorial 
 public class NqueneProblem {
 
     public static boolean isSafe(char board[][],int row,int col){
