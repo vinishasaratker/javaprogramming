@@ -13,14 +13,14 @@ public class Permutation {
 
             char curr = str.charAt(i);
 
-            // remove current character
+                 // remove current character
+                 
             String newstr = str.substring(0, i) + str.substring(i + 1);
 
             // add curr in answer
             findPermutation(newstr, ans + curr);
         }
     }
-
     public static void main(String[] args) {
 
         String str = "abc";
@@ -28,7 +28,6 @@ public class Permutation {
         findPermutation(str, "");
     }
 }
-
 
     //                           ("abc","")
     //                      /         |         \
