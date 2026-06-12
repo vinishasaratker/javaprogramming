@@ -1,7 +1,6 @@
 package ArrayList.LinkedList;
 import java.util.LinkedList;
 public class AddInLL {
-
 public static class Node{
 int data;
 Node next ;
@@ -27,8 +26,7 @@ public void addFirst(int data){
     // step 3 -- head = newNode 
     head=newNode ;
 }
-
-    public static void main(String[] args) {
+ public static void main(String[] args) {
         LinkedList ll=new LinkedList<>();
         ll.addFirst(1);
         ll.add(9);
