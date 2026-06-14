@@ -22,8 +22,6 @@ public class MonotoniQue {
         return increasing || dec;
     }
 
-   
-
     public static ArrayList<Integer> findLonely(ArrayList<Integer> nums) {
 
         ArrayList<Integer> ans = new ArrayList<>();
@@ -64,8 +62,6 @@ public class MonotoniQue {
         return ans;
     }
     
-
-   
     public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();
@@ -77,8 +73,7 @@ public class MonotoniQue {
         list.add(0);
 
         System.out.println(monotonicArray(list));
-
-        ArrayList<Integer> nums=new ArrayList<>();
+      ArrayList<Integer> nums=new ArrayList<>();
        nums.add(10);
         nums.add(6);
         nums.add(5);
