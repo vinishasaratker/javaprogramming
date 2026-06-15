@@ -67,12 +67,18 @@ public class MonotoniQue {
         ArrayList<Integer> list = new ArrayList<>();
 
         list.add(1);
+
+        
+        
         list.add(1);
+
         list.add(2);
+
         list.add(3);
         list.add(0);
 
         System.out.println(monotonicArray(list));
+        
       ArrayList<Integer> nums=new ArrayList<>();
        nums.add(10);
         nums.add(6);
