@@ -1,7 +1,5 @@
 package ArrayList.LinkedList;
-
 import java.util.LinkedList;
-
 public class AddInLL {
     public static class Node {
         int data;
@@ -12,8 +10,7 @@ public class AddInLL {
             this.next = null;
         }
     }
-
-    public static Node head;
+   public static Node head;
     public static Node tail;
 
     public void addFirst(int data) {
@@ -35,5 +32,6 @@ public class AddInLL {
         LinkedList ll = new LinkedList<>();
         ll.addFirst(1);
         ll.add(9);
+      System.out.println(ll);
     }
 }
