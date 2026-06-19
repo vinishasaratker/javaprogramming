@@ -1,24 +1,25 @@
 package ArrayList;
 
 import java.util.ArrayList;
-import java .util.Collections;
+import java.util.Collections;
 
 public class MonotoniQue {
 
-    public static boolean monotonicArray(ArrayList<Integer> list){
+    public static boolean monotonicArray(ArrayList<Integer> list) {
 
         boolean increasing = true;
         boolean dec = true;
 
-        for(int i=0; i<list.size()-1; i++){
+        for (int i = 0; i < list.size() - 1; i++) {
 
-            if(list.get(i) > list.get(i+1))
+            if (list.get(i) > list.get(i + 1))
                 increasing = false;
 
-            if(list.get(i) < list.get(i+1))
+            if (list.get(i) < list.get(i + 1))
                 dec = false;
         }
-// agr increasing ya decreasing dono me se ek  bhi true hai to answer will be true 
+        // agr increasing ya decreasing dono me se ek bhi true hai to answer will be
+        // true
         return increasing || dec;
     }
 
@@ -61,15 +62,13 @@ public class MonotoniQue {
 
         return ans;
     }
-    
+
     public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();
 
         list.add(1);
 
-        
-        
         list.add(1);
 
         list.add(2);
@@ -78,12 +77,12 @@ public class MonotoniQue {
         list.add(0);
 
         System.out.println(monotonicArray(list));
-        
-      ArrayList<Integer> nums=new ArrayList<>();
-       nums.add(10);
+
+        ArrayList<Integer> nums = new ArrayList<>();
+        nums.add(10);
         nums.add(6);
         nums.add(5);
         nums.add(8);
-System.out.println(findLonely(nums));
+        System.out.println(findLonely(nums));
     }
 }
