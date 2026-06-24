@@ -6,8 +6,7 @@ import java.util.Collections;
 public class MonotoniQue {
 
     public static boolean monotonicArray(ArrayList<Integer> list) {
-
-        boolean increasing = true;
+     boolean increasing = true;
         boolean dec = true;
 
         for (int i = 0; i < list.size() - 1; i++) {
