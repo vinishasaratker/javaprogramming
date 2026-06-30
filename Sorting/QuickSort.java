@@ -1,11 +1,9 @@
 package Sorting;
 
 public class QuickSort {
-
-    // Quick Sort Function
+// Quick Sort Function
     public static void quickSort(int arr[], int low, int high) {
-
-        if (low < high) {
+      if (low < high) {
 
             int pivotIdx = partition(arr, low, high);
 
@@ -13,7 +11,6 @@ public class QuickSort {
             quickSort(arr, pivotIdx + 1, high);
         }
     }
-
     // Partition Function
     public static int partition(int arr[], int low, int high) {
 
