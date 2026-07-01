@@ -89,12 +89,12 @@ public class ZigZagLL {
         ll.addElement(50);
         ll.addElement(60);
 
-        System.out.println("Before ZigZag:");
+        System.out.println("Before ZigZag linked list :");
         ll.print();
 
         ll.zigZag();
 
-        System.out.println("After ZigZag:");
+        System.out.println("After ZigZag  linkedlist :");
         ll.print();
     }
 }

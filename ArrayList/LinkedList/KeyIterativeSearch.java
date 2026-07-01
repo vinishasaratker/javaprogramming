@@ -69,49 +69,45 @@ public class KeyIterativeSearch {
         return helper(head, key);
     }
 
+    /// *** */ REVERSE A LINKEDLIST ****
+    public void reverse() {
+        Node prev = null;
+        Node curr = tail = head;
+        Node next;
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
 
-
-
-    ///*** */ REVERSE A LINKEDLIST ****
-    public  void reverse(){
-Node prev=null;
-Node curr=tail=head;
-Node next ;
-while(curr!=null){
-    next=curr.next;
-    curr.next=prev ;
-    prev=curr ;
-    curr=next ;
-   
-}
- head=prev ;
+        }
+        head = prev;
     }
 
-
-    //** delete form nth to last  */
-    public void deleteNthFromEnd(int n){
-        // calculate size 
-        int sz=0;
-        Node temp=head ;
-        while(temp!=null){
-            temp=temp.next;
+    // ** delete form nth to last */
+    public void deleteNthFromEnd(int n) {
+        // calculate size
+        int sz = 0;
+        Node temp = head;
+        while (temp != null) {
+            temp = temp.next;
             sz++;
         }
-        if(n==sz){
-            head=head.next;
-            return ;
+        if (n == sz) {
+            head = head.next;
+            return;
         }
-        // (size-n) ke liye calculate krna honga 
-        int i=1;
-        int iToFind=sz-n;
-        Node prev=head ;
-        while(i<iToFind){
-            prev=prev.next;
+        // (size-n) ke liye calculate krna honga
+        int i = 1;
+        int iToFind = sz - n;
+        Node prev = head;
+        while (i < iToFind) {
+            prev = prev.next;
             i++;
         }
 
-prev.next=prev.next.next;
-return ;
+        prev.next = prev.next.next;
+        return;
     }
 
     public static void main(String[] args) {
@@ -127,8 +123,8 @@ return ;
         System.out.println("  recursion search " + ll.recSerch(33));
         ll.reverse();
         ll.print();
-      ll.deleteNthFromEnd(3);
-      ll.print();
+        ll.deleteNthFromEnd(3);
+        ll.print();
 
     }
 }
