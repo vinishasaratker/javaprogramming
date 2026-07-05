@@ -1,12 +1,20 @@
 class basic {
   public static void main(String[] args) {
- // binary-- it performs multiple operands
+    
+    // binary-- it performs multiple operands
+
     // arithmetic + - * /
+
     // assignment operator += -= *= /= %=
+
     // relational operator > < >= <= == !=
+
     // logical operator and && or || not
+
     // bitwise = and or not xor
+
     // x-or---ya to different value ya to same value nikalna hota hai
+
     int a = 78;// decleration
     int b = 12;// initialization
     // system ek class hai orr only class hi capital ho skta hai or jo out hai vo
