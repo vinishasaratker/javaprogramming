@@ -1,7 +1,5 @@
 package Stacks;
-
 import java.util.*;
-
 public class PushAtBottom {
 
     public static void pushBottom(Stack<Integer> s, int data) {
@@ -12,9 +10,7 @@ public class PushAtBottom {
         int top = s.pop();
         pushBottom(s, data);
         s.push(top);
-    }
-
-    public static void main(String[] args) {
+    } public static void main(String[] args) {
         Stack<Integer> s = new Stack<>();
         s.push(2);
         s.push(8);
