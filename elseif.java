@@ -2,7 +2,7 @@
 // import java .util.Scanner;
 // public class elseif {
 //  public static void main(String[] args) {
-    
+
 //      Scanner obj=new Scanner(System.in);
 
 //      int month;
@@ -21,15 +21,13 @@
 //         System.out.println("invalid");
 //      }
 //  }
-    
 
 // }
-
 
 // import java.util.Scanner;
 //  public  class elseif{
 //     public static void main(String[] args) {
-        
+
 //     Scanner obj=new Scanner(System.in);
 //     int option;
 //     System.out.println("enter option 1. for f-c & 2. for c-f");
@@ -42,7 +40,7 @@
 //         int ans;
 //         ans=(temp-32)*5/9;
 //         System.out.println(ans+" "+"tempreture in celsius");
-         
+
 //}
 
 //     else if(option==2){
@@ -58,12 +56,12 @@
 //         System.out.println("invalid");
 //     }
 //     }
-                 // }
+// }
 
 // import java.util.Scanner;
 // public class elseif{
 //     public static void main(String[] args) {
-        
+
 // char ch;
 //  Scanner obj=new Scanner(System.in);
 // System.out.println("enter any charactor value");
@@ -72,7 +70,6 @@
 // {
 //     System.out.println("lowercase");
 // }
-
 
 // else if(ch>='A' && ch<='Z'){
 //     System.out.println("uppercase");
@@ -86,7 +83,7 @@
 // import java.util.Scanner;
 // public class elseif{
 //     public static void main(String[] args) {
-        
+
 //         char ch;
 //         Scanner obj=new Scanner(System.in);
 //         System.out.println("enter any charactor");
@@ -109,7 +106,7 @@
 // // import java.util.Scanner;
 // // public class elseif{
 // //     public static void main(String[] args) {
-        
+
 // //         Scanner obj=new Scanner(System.in);
 // //         int unit;
 // //         System.out.println(" enter units ");
@@ -131,15 +128,14 @@
 // //         }
 
 // //     }
-    
 
 // // }
 // // import java.util.Scanner;
 // // public class elseif{
 // //     public static void main(String[] args) {
-        
- // //         Library Fine Calculation If book is returned: Within 7 days → no fine.
- // 8–15 days late → ₹2 per day fine. More than 15 days late → ₹5 per day fine.
+
+// //         Library Fine Calculation If book is returned: Within 7 days → no fine.
+// 8–15 days late → ₹2 per day fine. More than 15 days late → ₹5 per day fine.
 
 // // int days;
 // // Scanner obj=new Scanner(System.in);
@@ -200,15 +196,15 @@
 //     else{
 //         System.out.println("invalid"); }
 //  }}
- // write a program to convert meter into cm
+// write a program to convert meter into cm
 
- // convert  byte into kilobyte
+// convert  byte into kilobyte
 
 //   import java.util.Scanner;
 // public class elseif{
 //      public static void main(String[] args)
 //      {
-        
+
 //         int  meter;
 //         Scanner obj=new Scanner(System.in);
 //         System.out.println(" enter length into meter");
@@ -217,16 +213,17 @@
 //         cm=meter*100;
 //         System.out.println("in cm :"+cm);
 //      }
-    //     }
-      import java.util.Scanner;
-public class elseif{
-     public static void main(String[] args)
-     { int by;
-        System.out.println("enter lenghtt");
-        Scanner obj=new Scanner(System.in);
-        by=obj .nextInt();
-        float kb;
-kb=by/1024;
-System.out.println( " "+kb);
-}
+//     }
+import java.util.Scanner;
+
+public class elseif {
+  public static void main(String[] args) {
+    int by;
+    System.out.println("enter lenghtt");
+    Scanner obj = new Scanner(System.in);
+    by = obj.nextInt();
+    float kb;
+    kb = by / 1024;
+    System.out.println(" " + kb);
+  }
 }
