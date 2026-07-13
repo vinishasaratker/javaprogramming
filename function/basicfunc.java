@@ -6,6 +6,7 @@ public class basicfunc {
       System.out.println(56 + 98);
    }
 
+
    String names() {
       return "returnn ";
    }
@@ -18,6 +19,7 @@ public class basicfunc {
       basicfunc obj = new basicfunc();
 
       obj.add();
+      
       System.out.println(obj.names());
       System.out.println(obj.add2());
    }
