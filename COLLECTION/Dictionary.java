@@ -2,7 +2,7 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Map;
 
-public class Dictionary{
+public class Dictionary {
     public static void main(String[] args) {
           Dictionary<Integer,Integer> h= new Hashtable<Integer,Integer>();
 h.put(1,1000);
