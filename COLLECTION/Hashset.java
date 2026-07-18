@@ -13,8 +13,11 @@ public class Hashset {
        h.add(60);
        h.add(50);
      System.out.println("try to add duplicate  "+  h.add(10));
+     
      System.out.println("all elements of Set : "+h);
+
      System.out.println("Print Element using for each ");
+
         for(int x:h){
             System.out.print("==>"+x);
         }
