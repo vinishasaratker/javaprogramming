@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class basicfunction {
 static void method1(int array[]){
     
-        System.out.println(array[3]);
+        System.out.println(array[30]);
+
         System.out.println(array[1]);
         System.out.println(array[0]);
        }
@@ -35,10 +36,10 @@ static void sumofarray(int sum[]){
     for(int i=0;i<n;i++){
 summ=summ+sum[i];
     }
-    System.out.println(" the summetion is :"+summ);
+    System.out.println(" the summetion is-- :"+summ);
 }
    public static void main(String[] args) {
-        int array[] = {23, 56, 798, 98};
+        int array[] = {23, 56, 798, 98,99,78,65,34,22};
         method1(array);
         int arr2[] = {2, 4, 6, 8, 10, 11};
         method2(arr2);
