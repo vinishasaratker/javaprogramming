@@ -46,7 +46,9 @@ public class StackbyArraylist {
         sb.push(5);
         sb.push(6);
         sb.push(8);
+        sb.push(89);
 
+        sb.push(008);
         System.out.println("Elements popped from stack:");
 
         while (!sb.isEmpty()) {
