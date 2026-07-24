@@ -7,9 +7,9 @@ public class KadansAlgo {
         for(int i=0; i<numbers.length;i++){
             currentsum=currentsum+numbers[i];
             if(currentsum<0){
-currentsum=0;
+        currentsum=0;
             }
-maxsum=Math.max(currentsum,maxsum);
+         maxsum=Math.max(currentsum,maxsum);
         }
         System.out.println("our maximum sub array is " + maxsum);
     }
