@@ -13,10 +13,12 @@ public class TwoSum {
                 System.out.println(leftp + " ==" + rightp);
                 status = true;
                 break;
-            } else if (sum > target) {
+            }
+             else if (sum > target) {
                 rightp--;
 
             } else {
+
                 leftp--;
             }
         }
