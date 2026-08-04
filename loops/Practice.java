@@ -128,21 +128,27 @@ public class Practice {
         // System.out.print(" "+third);
         // }
 
-        // System.out.println("check prime number or not ");
-        // int p=67 ;
-        // int c=0;
-        // for(int i=0 ;i<p;i++){
-        // if(p%i==0){
-        // c++;
-        // }
+        System.out.println("check prime number or not ");
+        int p=67 ;
+        int c=0;
+        for(int i=0 ;i<p;i++){
 
-        // }
-        // if(c>2){
-        // System.out.println("not a prime number ");
-        // }
-        // else{
-        // System.out.println(" prime number ");
-        // }
+        if(p%i==0){
+
+        c++;
+
+        }
+
+        }
+        if(c>2){
+
+        System.out.println("not a prime number ");
+
+        }
+        else{
+            
+        System.out.println(" prime number ");
+        }
 
     }
 }
