@@ -3,29 +3,44 @@ import java.util.Scanner;
 
 public class Practice {
 
-    public static void moveZeros(int[] nums) {
-        int j = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != 0) {
-                nums[j] = nums[i];
-            }
-            j++;
+    // public static void moveZeros(int[] nums) {
+    //     int j = 0;
+    //     for (int i = 0; i < nums.length; i++) {
+    //         if (nums[i] != 0) {
+    //             nums[j] = nums[i];
+    //         }
+    //         j++;
 
-            nums[j] = nums[i];
+    //         nums[j] = nums[i];
 
-            for (j = 0; j < nums.length; j++) {
-                System.out.println(nums[j]);
-            }
+    //         for (j = 0; j < nums.length; j++) {
+    //             System.out.println(nums[j]);
+    //         }
 
-        }
+    //     }
 
-    }
+    // }
+
+
+
+//      static int gcd(int x,int y){
+//         while(x%y!=0){
+// int  rem =x%y;
+// x=y ;
+// y=rem ;
+
+//         }
+//         return y ;
+//      }
+
+ 
+
 
     public static void main(String[] args) {
 
-        int nums[] = { 3, 4, 0, 5, 0, 9, 0,6,7 };
+        // int nums[] = { 3, 4, 0, 5, 0, 9, 0,6,7 };
 
-        moveZeros(nums);
+        // moveZeros(nums);
 
         // Scanner sc= new Scanner(System.in);
         // System.out.println("enter two number ");
@@ -44,9 +59,9 @@ public class Practice {
 
         // System.out.println("swappinbg");
 
-        int a = 10;
-        int b = 3;
-        int temp;
+        // int a = 10;
+        // int b = 3;
+        // int temp;
         // temp=b ;
         // b=a;
         // a=temp ;
@@ -128,27 +143,61 @@ public class Practice {
         // System.out.print(" "+third);
         // }
 
-        System.out.println("check prime number or not ");
-        int p=67 ;
-        int c=0;
-        for(int i=0 ;i<p;i++){
+        // System.out.println("check prime number or not ");
+        // int p=67 ;
+        // int c=0;
+        // for(int i=0 ;i<p;i++){
 
-        if(p%i==0){
+        // if(p%i==0){
 
-        c++;
+        // c++;
 
-        }
+        // }
 
-        }
-        if(c>2){
+        // }
+        // if(c>2){
 
-        System.out.println("not a prime number ");
+        // System.out.println("not a prime number ");
 
-        }
-        else{
+        // }
+        // else{
             
-        System.out.println(" prime number ");
+        // System.out.println(" prime number ");
+        // }
+
+        // int x=9;
+        // int y=3;
+        // System.out.println(" greatest common factor is : "+gcd(x, y));
+
+        //  System.out.println(" lcm is ");
+        //  int ans=x*y/gcd(x, y);
+        //  System.out.println(ans);
+
+
+String str="Java@123 Programming";
+
+int vovel=0 ;
+int consonant
+
+ for(int i=1 ;i<str.length();i++){
+   {
+
+        if(str.charAt(i)=='A'-'Z'){
+            count ++ ;
         }
+        
+    }
+  
+ }
+ 
+
+
+
+
+
+
+
+
 
     }
 }
