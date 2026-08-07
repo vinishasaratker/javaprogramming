@@ -40,6 +40,21 @@ System.out.println(newstr);
 }
 
 
+ static void longeststring(String srname){
+
+String words[]=srname.split("");
+ String longest="";
+for(int i=0;i<srname.length();i++){
+   
+    for(String word:words){
+        if(word.length()>longest.length()){
+            longest=word;
+        }
+    }
+    System.out.println(longest);
+}
+
+ }
 
 
     
@@ -174,5 +189,8 @@ String vini="vinishaa";
  strcompression(str3);
  String mmm="pproogramming";
  removedup(mmm);
+
+   String srname=" java is programming gusy  oohehejijija aj";
+   longeststring(srname);
     }
 }
