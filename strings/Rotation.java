@@ -28,6 +28,7 @@ class Rotation {
         String s2 = "CDAB";
         rotation(s1, s2);
         Scanner sc=new Scanner(System.in);
+
         System.out.println(" enter string ");
          String para=sc.nextLine();
          if(para.contains("java")){
@@ -36,14 +37,14 @@ class Rotation {
          System.out.println(para);
 
          Scanner pass=new Scanner(System.in);
-         System.out.println("enter a password ");\
+         System.out.println("enter a password. ");
          pass.nextLine();
          if(pass.length()<8){
             System.out.println(" not a valid password ");
             
          }
          else if(pass.isUpperCase() && pass.isLowerCase() && pass.isDigit() && ){
-System.out.println(" password is correct ");
+         System.out.println(" password is correct ");
          }
 
 
