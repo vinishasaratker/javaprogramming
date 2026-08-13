@@ -61,15 +61,11 @@ double discount=amount*5/100;
 System.out.println( amount-discount);
 
  }
-
   else if( amount<=1000 && amount<5000){
     System.out.println("your discount is 10 %");
 double discount=amount*10/100;
 System.out.println( amount-discount);
 
  }
-
-
-
     }
 }
