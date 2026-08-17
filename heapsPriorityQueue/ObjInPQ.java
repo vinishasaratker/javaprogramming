@@ -20,6 +20,8 @@ pq.add(new Student("A",4));
 pq.add(new Student("B",3));
 pq.add(new Student("C",14));
 pq.add(new Student("D",2));
+pq.add(new Student("E",8));
+pq.add(new Student("F",9));
 
 while(!pq.isEmpty()){
     System.out.println(pq.peek().name+" -->"+pq.peek().rank);
