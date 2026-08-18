@@ -15,13 +15,14 @@ static void method1(int array[]){
         }
     }
         static void inputInArray(){
+
         Scanner obj = new Scanner(System.in);
-        System.out.print("Enter size of array: ");
+        System.out.print("Enter size of array ..: ");
         int n = obj.nextInt();
         int arr3[] = new int[n];
 
         for(int i = 0; i < n; i++){
-            System.out.print("Enter element " );
+            System.out.print("Enter element .." );
             arr3[i] = obj.nextInt();
         }
 
@@ -41,10 +42,10 @@ summ=summ+sum[i];
    public static void main(String[] args) {
         int array[] = {23, 56, 798, 98,99,78,65,34,22};
         method1(array);
-        int arr2[] = {2, 4, 6, 8, 10, 11};
+        int arr2[] = {2, 4, 6, 8, 10, 11,22,66};
         method2(arr2);
          inputInArray();
-         int sum[]={1,2,3,4,5};
+         int sum[]={1,2,3,4,5,3};
          sumofarray(sum);
     }
 }
