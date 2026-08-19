@@ -34,12 +34,16 @@ static void method1(int array[]){
 static void sumofarray(int sum[]){
     int n=sum.length;
     int summ=0;
-    for(int i=0;i<n;i++){
-summ=summ+sum[i];
+    for(int i=0;i<n;i++)
+    {
+
+  summ=summ+sum[i];
+
     }
+
     System.out.println(" the summetion is-- :"+summ);
 }
-   public static void main(String[] args) {
+     public static void main(String[] args) {
         int array[] = {23, 56, 798, 98,99,78,65,34,22};
         method1(array);
         int arr2[] = {2, 4, 6, 8, 10, 11,22,66};
