@@ -20,4 +20,13 @@ public static void MinimumDifference(int arr[]) {
     }
 
     System.out.println("Minimum Difference = " + diff);
+
+
+
+
+
+
+
+
+
 }
