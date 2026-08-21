@@ -1,6 +1,18 @@
 import java.util.Scanner;
 class Transpose{
 
+static int[][] transpose(int matrix[][],int c,int r){
+int ans[][]= new int [c][r];
+
+for(int i=0;i<c;i++){
+    for(int j=i;j<r;j++){
+
+    ans[i][j]=matrix[j][i];
+    }
+
+}
+return ans ;
+}
 
  static void printMatrix(int [][] matrix){
     for(int i=0 ;i<matrix.length;i++){
@@ -28,7 +40,8 @@ Scanner sc=new Scanner(System.in);
         System.out.println(" input matrix is :");
         printMatrix(matrix);
         System.out.println(" transpose matrix is :");
-        //printMatrix(transpose);
-
+       
+int [][] ans=transpose(matrix, c, r);
+printMatrix(ans);
     }
 }
