@@ -10,6 +10,7 @@ class RotatedMatrix {
             for (int j = i; j < n; j++) {
 
                 ans[i][j] = matrix[j][i];
+                
                ans[j][i] = matrix[i][j];
             }
         }
@@ -75,9 +76,11 @@ class RotatedMatrix {
         }
 
         System.out.println("Original Matrix:");
+
         printmatrix(matrix);
 
         System.out.println("Rotated Matrix:");
+
         rotatematrix(matrix, n);
     }
 }
