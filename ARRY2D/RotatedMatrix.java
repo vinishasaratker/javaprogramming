@@ -1,10 +1,8 @@
 import java.util.Scanner;
-
 class RotatedMatrix {
 
     static int[][] transpose(int matrix[][], int n) {
-
-        int ans[][] = new int[n][n];
+      int ans[][] = new int[n][n];
 
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
@@ -80,7 +78,6 @@ class RotatedMatrix {
         printmatrix(matrix);
 
         System.out.println("Rotated Matrix:");
-
         rotatematrix(matrix, n);
     }
 }

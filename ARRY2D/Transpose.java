@@ -1,20 +1,18 @@
 import java.util.Scanner;
 class Transpose{
-
 static int[][] transpose(int matrix[][],int c,int r){
 int ans[][]= new int [c][r];
-
 for(int i=0;i<c;i++){
     for(int j=i;j<r;j++){
 
     ans[i][j]=matrix[j][i];
     }
+ }
+ return ans ;
 
 }
-return ans ;
-}
 
- static void printMatrix(int [][] matrix){
+static void printMatrix(int [][] matrix){
     for(int i=0 ;i<matrix.length;i++){
         for(int j=0;j<matrix[i].length;j++){
 System.out.print(matrix[i][j]+" ");
@@ -24,7 +22,7 @@ System.out.print(matrix[i][j]+" ");
  }
 
     public static void main (String[] args){
-Scanner sc=new Scanner(System.in);
+    Scanner sc=new Scanner(System.in);
         System.out.println(" enter no of  rows and columns ");
         int r=sc.nextInt();
         int c=sc.nextInt();
@@ -37,11 +35,12 @@ Scanner sc=new Scanner(System.in);
                 matrix[i][j]=sc.nextInt();
             }
         }
+
         System.out.println(" input matrix is :");
         printMatrix(matrix);
         System.out.println(" transpose matrix is :");
        
-int [][] ans=transpose(matrix, c, r);
-printMatrix(ans);
+   int [][] ans=transpose(matrix, c, r);
+    printMatrix(ans);
     }
 }

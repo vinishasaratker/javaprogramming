@@ -10,8 +10,7 @@ int row=0;
     if(matrix[row][col]==key){
      
         System.out.println("key found "+" "+ row +" " + col);
-        
-   return true;
+         return true;
     }
     else if(key<matrix[row][col]){
         col--;
