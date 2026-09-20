@@ -1,5 +1,4 @@
 import java.util.*;
-
 class KthTimeRotate {
 
     static void swap(int arr[], int i, int j) {
@@ -45,4 +44,5 @@ class KthTimeRotate {
             System.out.print(x + " ");
         }
     }
+    
 }
