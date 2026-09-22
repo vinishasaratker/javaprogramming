@@ -1,10 +1,9 @@
 class PartitionInEqualSubArray{
-
-
 static int FindSum(int arr[]){
 
 int totalsum=0;
 for(int i=0 ;i<arr.length;i++){
+    
     totalsum=totalsum+arr[i];
 
 }
@@ -15,14 +14,19 @@ static boolean partition(int arr[]){
 int sum=FindSum(arr);
 
 int prefixsum=0;
+
 for(int i=0;i<arr.length;i++){
+
     prefixsum +=arr[i];
     int suffixsum=sum-prefixsum;
     if(prefixsum==suffixsum){
         return false ;
     }
+
 }
+
 return true ;
+
 }
 public static void main(String[] args){
 
