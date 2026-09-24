@@ -37,7 +37,9 @@ public class MetgeShort {
         int temp[] = new int[ei - si + 1];
 
         int i = si; // iterator for left part
-        int j = mid + 1; // iterator for right part
+
+        int j = mid + 1; // iterator for right part.
+
         int k = 0; // iterator for temp arr
 
         // compare left and right elements
