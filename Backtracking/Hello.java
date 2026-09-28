@@ -1,12 +1,11 @@
+import java.util.*;
 class Hello{
 
     public static void main (String[]args){
-        
-        for(int i=0;i<6;i++){
-            System.out.println("hello !!!");
-            for(int k=i;k<8;k++){
-              System.out.println("WWWhhh... ");  
-            }
-        }
+      ArrayList<Integer> list=  new ArrayList<>();
+      list.add(8);
+      list.add(87);
+      System.out.println(list);
+       
     }
 }
