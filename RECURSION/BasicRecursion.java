@@ -1,3 +1,5 @@
+
+import java.util.*;
 class BasicRecursion {
 
     // recursion me ek base case jrur hona chahiye nhi to stack overflow ki
@@ -24,12 +26,46 @@ class BasicRecursion {
     }
 
      
+ static void printnumbers(int num)
+{
+    if(num==1){
+        System.out.print(num);
+        return ;
+    }
+    printnumbers(num-1);
+    System.out.println(num);
+}
 
+
+
+static int fact(int num1) {
+
+    if (num1 == 1) {
+        return 1;
+    }
+
+    return num1 * fact(num1 - 1);
+}
+
+
+
+    
     public static void main(String[] args) {
+
         int n = 10;
-        printdecreasing(n);
+        // printdecreasing(n);
+
         int m = 40;
-        printincrasing(m);
-       
+        // printincrasing(m);
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter any number:");
+        // int num = sc.nextInt();
+
+        // printnumbers(num);
+
+        int num1 = 5;
+
+        System.out.println(fact(num1));
     }
 }
