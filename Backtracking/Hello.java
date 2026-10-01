@@ -5,7 +5,11 @@ class Hello{
       ArrayList<Integer> list=  new ArrayList<>();
       list.add(8);
       list.add(87);
+      list.add(09);
+      list.add(65);
+
       System.out.println(list);
+      
       int ans=0;
       int n=10;
       for(int i=0;i<n;i++){
