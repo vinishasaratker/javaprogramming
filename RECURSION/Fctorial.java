@@ -43,6 +43,18 @@ int n=arr.length;
         return isShorted(arr,i+1);
     }
 
+public static void Multiple(int num,int k){
+
+if(k==0){
+return ;
+}
+
+int ans=num*k;
+System.out.print("MULTIPLE IS THIS :"+ans);
+Multiple(num,k-1);
+}
+
+
     
     public static void main(String[] args) {
         int n = 6;
@@ -54,5 +66,8 @@ int n=arr.length;
         int arr[]={1,2,3,4};
         int i=0;
        System.out.println(isShorted(arr,i));
+
+
+       Multiple(5,8);
     }
 }

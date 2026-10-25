@@ -1,10 +1,13 @@
 public class Largeststring {
 
     static void largest(String fruits[]) {
+
         String largest = fruits[0];
         for (int i = 0; i < fruits.length; i++) {
+
             // String largest=fruits[0];
             if (largest.compareTo(fruits[i]) < 0) {
+                
                 largest = fruits[i];
                 // because compareTo return integer value agr condition true hai to positive me
                 // or false hai to negative me or eqal h to zero

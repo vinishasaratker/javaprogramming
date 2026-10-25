@@ -3,7 +3,9 @@ import java.util.Collection;
 import java.util.List;
 
 class Collection1 {
+
     public static void main(String[] args) {
+
 
         Collection i = new ArrayList();
         System.out.println("method1 of printimg but it hame limited method ");
@@ -18,6 +20,7 @@ class Collection1 {
         System.out.println("third method of printing  array list have all the methods ");
 
         ArrayList list = new ArrayList();
+
 
         list.add(10);
         list.add("Hello");

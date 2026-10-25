@@ -1,4 +1,3 @@
-
 import java.util.*;
 class BasicRecursion {
 
@@ -37,7 +36,6 @@ class BasicRecursion {
 }
 
 
-
 static int fact(int num1) {
 
     if (num1 == 1) {
@@ -48,8 +46,6 @@ static int fact(int num1) {
 }
 
 
-
-    
     public static void main(String[] args) {
 
         int n = 10;

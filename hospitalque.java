@@ -9,6 +9,7 @@ public class hospitalque {
     int bil;
 
     // ********** */
+
     if (patient.equals("CVR")) {
       System.out.println("your patient is serious :");
       String ward;
@@ -31,6 +32,7 @@ public class hospitalque {
       else if (option == 2) {
         System.out.println("shifting in another ward according to doctor ..");
       }
+
 
     }
     // ******************* */

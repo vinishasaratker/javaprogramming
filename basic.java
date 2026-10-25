@@ -61,6 +61,7 @@ class basic {
     System.out.println((num % 2 == 0) ? "even" : "odd");
     // else -if
     int number = 90;
+    
 
     if (90 % 2 == 0) {
       System.out.println("even");

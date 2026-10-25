@@ -167,6 +167,7 @@
 // }
 
 //  }
+
 // }
 // import java.util.Scanner;
 // class testque{
@@ -184,6 +185,7 @@
 //         }
 //     }
 // }
+
 import java.util.Scanner;
 class testque{
     public static void main(String[]args){

@@ -1,4 +1,5 @@
-public class OccurenceOfKey {
+public class OccurenceOfKey
+ {
     public static int firstoccurence(int arr[],int key,int i){
 
         if(arr[i]==arr.length-1){
@@ -9,8 +10,11 @@ public class OccurenceOfKey {
         }
         return firstoccurence(arr, key, i+1);
     }
+
 public static int tilingproblrm(int n){
+
 if(n==1 || n==0){
+    
     return 1 ;
 }
 
