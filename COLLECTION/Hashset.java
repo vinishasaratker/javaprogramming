@@ -22,7 +22,7 @@ public class Hashset {
             System.out.print("==>"+x);
         }
 
-        System.out.println("");
+    System.out.println("");
         Iterator<Integer> itr=h.iterator();
         
         while(itr.hasNext()){

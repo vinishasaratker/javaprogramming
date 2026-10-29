@@ -12,10 +12,14 @@ public class Treeset {
 //       h.add(40);
 //       h.add(60);
 //       h.add(50);
+
          h.add(new String("a"));
+
          h.add(new String("z"));
+
          h.add(new String("b"));
-         h.add(new String("x"));
+        
+         h.add(new String("uu"));
          System.out.println(""+h);
         //    System.out.println("try to add duplicate  "+  h.add('u'));
     //    System.out.println("all elements of Set : "+h);
