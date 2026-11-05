@@ -3,6 +3,7 @@ package Sorting;
 public class Bubbleshort {
     public static void shorting(int arr[]) {
         for (int turn = 0; turn < arr.length - 1; turn++) {
+
             for (int j = 0; j < arr.length - 1 - turn; j++) {
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
@@ -21,7 +22,8 @@ public class Bubbleshort {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 5, 4, 1, 3, 2 };
+        int arr[] = { 5, 4, 1, 3, 2 }  ;
+
         shorting(arr);
         printarr(arr);
     }

@@ -8,9 +8,10 @@ public class Dictionary {
 h.put(1,1000);
 
 h.put(2,3000);
+
 h.put(3,4000);
-h.put(4,5000);
-h.put(5,3000);
+
+
 
 System.out.println(" "+h);
 System.out.println("print data   of dictionary using emuration ");
