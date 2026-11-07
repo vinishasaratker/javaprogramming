@@ -1,6 +1,9 @@
 public class deepcopy {
+
     public static void main(String[] args) {
+
         String name[]={"hyy","byyy","hmmm"};
+        
         Copy obj1=new Copy(name);
         Copy obj2=new Copy(obj1);
         obj2.name[0]="namaste";

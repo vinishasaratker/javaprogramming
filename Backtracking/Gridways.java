@@ -6,6 +6,7 @@ public class Gridways {
     public static int  gridways(int i,int j,int m,int n){
 
         // base case 
+        
         if(i==n-1 && j==m-1){
             return 1 ;
         }
@@ -13,6 +14,7 @@ public class Gridways {
        return 0;
         }
         int w1=gridways(i+1, j, m, n);
+
         int w2=gridways(i, j+1, m, n);
         return w1+w2 ;
     }
